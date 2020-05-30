@@ -143,3 +143,84 @@ public class Canvas
             graphic.setColor(Color.black);
         }
     }
+	
+    /**
+     * Wait for a specified number of milliseconds before finishing.
+     * This provides an easy way to specify a small delay which can be
+     * used when producing animations.
+     * @param  milliseconds  the number 
+     */
+    public void wait(int milliseconds)
+    {
+        try
+        {
+            Thread.sleep(milliseconds);
+        } 
+        catch (Exception e)
+        {
+            // ignoring exception at the moment
+        }
+    }
+
+    /**
+     * Redraw ell shapes currently on the Canvas.
+     */
+    private void redraw()
+    {
+        erase();
+        for(Object shape : objects) {
+            shapes.get(shape).draw(graphic);
+        }
+        canvas.repaint();
+    }
+       
+    /**
+     * Erase the whole canvas. (Does not repaint.)
+     */
+    private void erase()
+    {
+        Color original = graphic.getColor();
+        graphic.setColor(backgroundColor);
+        Dimension size = canvas.getSize();
+        graphic.fill(new Rectangle(0, 0, size.width, size.height));
+        graphic.setColor(original);
+    }
+
+
+    /************************************************************************
+     * Inner class CanvasPane - the actual canvas component contained in the
+     * Canvas frame. This is essentially a JPanel with added capability to
+     * refresh the image drawn on it.
+     */
+    private class CanvasPane extends JPanel
+    {
+        public void paint(Graphics g)
+        {
+            g.drawImage(canvasImage, 0, 0, null);
+        }
+    }
+    
+    /************************************************************************
+     * Inner class CanvasPane - the actual canvas component contained in the
+     * Canvas frame. This is essentially a JPanel with added capability to
+     * refresh the image drawn on it.
+     */
+    private class ShapeDescription
+    {
+        private Shape shape;
+        private String colorString;
+
+        public ShapeDescription(Shape shape, String color)
+        {
+            this.shape = shape;
+            colorString = color;
+        }
+
+        public void draw(Graphics2D graphic)
+        {
+            setForegroundColor(colorString);
+            graphic.fill(shape);
+        }
+    }
+
+}
