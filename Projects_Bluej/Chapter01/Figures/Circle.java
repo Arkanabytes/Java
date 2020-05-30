@@ -1,5 +1,4 @@
 /*Arkana - Alejandra Pinto*/
-
 import java.awt.*;
 import java.awt.geom.*;
 
@@ -11,9 +10,7 @@ public class Circle
     private String color;
     private boolean isVisible;
     
-    /**
-     * Create a new circle at default position with default color.
-     */
+    /* Create a new circle at default position with default color.*/
     public Circle()
     {
         diameter = 68;
@@ -22,59 +19,47 @@ public class Circle
         color = "blue";
     }
 
-    /**
-     * Make this circle visible. If it was already visible, do nothing.
-     */
+    /*Make this circle visible. If it was already visible, do nothing.*/
     public void makeVisible()
     {
         isVisible = true;
         draw();
     }
     
-    /**
-     * Make this circle invisible. If it was already invisible, do nothing.
-     */
+    /*Make this circle invisible. If it was already invisible, do nothing.*/
+    
     public void makeInvisible()
     {
         erase();
         isVisible = false;
     }
     
-    /**
-     * Move the circle a few pixels to the right.
-     */
+    /*Move the circle a few pixels to the right.*/
+    
     public void moveRight()
     {
         moveHorizontal(20);
     }
 
-    /**
-     * Move the circle a few pixels to the left.
-     */
+    /* Move the circle a few pixels to the left.*/
     public void moveLeft()
     {
         moveHorizontal(-20);
     }
 
-    /**
-     * Move the circle a few pixels up.
-     */
+    /*Move the circle a few pixels up.*/
     public void moveUp()
     {
         moveVertical(-20);
     }
 
-    /**
-     * Move the circle a few pixels down.
-     */
+    /**Move the circle a few pixels down.*/
     public void moveDown()
     {
         moveVertical(20);
     }
 
-    /**
-     * Move the circle horizontally by 'distance' pixels.
-     */
+    /**Move the circle horizontally by 'distance' pixels.*/
     public void moveHorizontal(int distance)
     {
         erase();
@@ -82,9 +67,7 @@ public class Circle
         draw();
     }
 
-    /**
-     * Move the circle vertically by 'distance' pixels.
-     */
+    /**Move the circle vertically by 'distance' pixels.*/
     public void moveVertical(int distance)
     {
         erase();
@@ -92,9 +75,8 @@ public class Circle
         draw();
     }
 
-    /**
-     * Slowly move the circle horizontally by 'distance' pixels.
-     */
+    /*Slowly move the circle horizontally by 'distance' pixels.*/
+    
     public void slowMoveHorizontal(int distance)
     {
         int delta;
@@ -116,9 +98,7 @@ public class Circle
         }
     }
 
-    /**
-     * Slowly move the circle vertically by 'distance' pixels.
-     */
+    /*Slowly move the circle vertically by 'distance' pixels.*/
     public void slowMoveVertical(int distance)
     {
         int delta;
@@ -140,9 +120,7 @@ public class Circle
         }
     }
 
-    /**
-     * Change the size to the new size (in pixels). Size must be >= 0.
-     */
+    /*Change the size to the new size (in pixels). Size must be >= 0*/
     public void changeSize(int newDiameter)
     {
         erase();
@@ -150,19 +128,14 @@ public class Circle
         draw();
     }
 
-    /**
-     * Change the color. Valid colors are "red", "yellow", "blue", "green",
-     * "magenta" and "black".
-     */
+    /*Change the color. Valid colors are "red", "yellow", "blue", "green","magenta" and "black".*/
     public void changeColor(String newColor)
     {
         color = newColor;
         draw();
     }
 
-    /**
-     * Draw the circle with current specifications on screen.
-     */
+    /*Draw the circle with current specifications on screen.*/
     private void draw()
     {
         if(isVisible) {
@@ -173,9 +146,7 @@ public class Circle
         }
     }
 
-    /**
-     * Erase the circle on screen.
-     */
+    /*Erase the circle on screen.*/
     private void erase()
     {
         if(isVisible) {
