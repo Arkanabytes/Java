@@ -32,7 +32,6 @@ public class Canvas
     }
 
     //  ----- instance part -----
-
     private JFrame frame;
     private CanvasPane canvas;
     private Graphics2D graphic;
@@ -185,8 +184,6 @@ public class Canvas
         graphic.fill(new Rectangle(0, 0, size.width, size.height));
         graphic.setColor(original);
     }
-
-
     /************************************************************************
      * Inner class CanvasPane - the actual canvas component contained in the
      * Canvas frame. This is essentially a JPanel with added capability to
@@ -222,5 +219,4 @@ public class Canvas
             graphic.fill(shape);
         }
     }
-
 }
