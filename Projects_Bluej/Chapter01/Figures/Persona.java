@@ -3,7 +3,7 @@ import java.awt.*;
 /**
  * A person that can be manipulated and that draws itself on a canvas.
  * 
- * @author  Alejandra Pinto
+ * @author  Arkana - Alejandra Pinto
  * @version 2018
  */
 
