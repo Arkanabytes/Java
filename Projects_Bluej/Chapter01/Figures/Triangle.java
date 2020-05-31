@@ -60,9 +60,7 @@ public class Triangle
         moveVertical(20);
     }
 
-    /**
-     * Move the triangle horizontally by 'distance' pixels.
-     */
+    /*Move the triangle horizontally by 'distance' pixels.*/
     public void moveHorizontal(int distance)
     {
         erase();
@@ -70,9 +68,7 @@ public class Triangle
         draw();
     }
 
-    /**
-     * Move the triangle vertically by 'distance' pixels.
-     */
+    /*Move the triangle vertically by 'distance' pixels.*/
     public void moveVertical(int distance)
     {
         erase();
