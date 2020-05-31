@@ -54,9 +54,7 @@ public class Triangle
         moveVertical(-20);
     }
 
-    /**
-     * Move the triangle a few pixels down.
-     */
+    /*Move the triangle a few pixels down.*/
     public void moveDown()
     {
         moveVertical(20);
