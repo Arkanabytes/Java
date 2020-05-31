@@ -42,17 +42,13 @@ public class Triangle
         moveHorizontal(20);
     }
 
-    /**
-     * Move the triangle a few pixels to the left.
-     */
+    /*Move the triangle a few pixels to the left.*/
     public void moveLeft()
     {
         moveHorizontal(-20);
     }
 
-    /**
-     * Move the triangle a few pixels up.
-     */
+    /*Move the triangle a few pixels up.*/
     public void moveUp()
     {
         moveVertical(-20);
