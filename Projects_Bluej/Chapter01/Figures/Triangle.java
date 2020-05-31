@@ -76,9 +76,7 @@ public class Triangle
         draw();
     }
 
-    /**
-     * Slowly move the triangle horizontally by 'distance' pixels.
-     */
+    /*Slowly move the triangle horizontally by 'distance' pixels.*/
     public void slowMoveHorizontal(int distance)
     {
         int delta;
@@ -100,9 +98,7 @@ public class Triangle
         }
     }
 
-    /**
-     * Slowly move the triangle vertically by 'distance' pixels.
-     */
+    /*Slowly move the triangle vertically by 'distance' pixels.*/
     public void slowMoveVertical(int distance)
     {
         int delta;
@@ -124,9 +120,7 @@ public class Triangle
         }
     }
 
-    /**
-     * Change the size to the new size (in pixels). Size must be >= 0.
-     */
+    /*Change the size to the new size (in pixels). Size must be >= 0.*/
     public void changeSize(int newHeight, int newWidth)
     {
         erase();
@@ -135,19 +129,14 @@ public class Triangle
         draw();
     }
 
-    /**
-     * Change the color. Valid colors are "red", "yellow", "blue", "green",
-     * "magenta" and "black".
-     */
+    /*Change the color. Valid colors are "red", "yellow", "blue", "green","magenta" and "black".*/
     public void changeColor(String newColor)
     {
         color = newColor;
         draw();
     }
 
-    /**
-     * Draw the triangle with current specifications on screen.
-     */
+    /*Draw the triangle with current specifications on screen.*/
     private void draw()
     {
         if(isVisible) {
@@ -159,9 +148,7 @@ public class Triangle
         }
     }
 
-    /**
-     * Erase the triangle on screen.
-     */
+    /*Erase the triangle on screen.*/
     private void erase()
     {
         if(isVisible) {
