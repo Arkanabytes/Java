@@ -25,59 +25,45 @@ public class Person
         isVisible = false;
     }
 
-    /**
-     * Make this person visible. If it was already visible, do nothing.
-     */
+    /*Make this person visible. If it was already visible, do nothing.*/
     public void makeVisible()
     {
         isVisible = true;
         draw();
     }
     
-    /**
-     * Make this person invisible. If it was already invisible, do nothing.
-     */
+    /*Make this person invisible. If it was already invisible, do nothing.*/
     public void makeInvisible()
     {
         erase();
         isVisible = false;
     }
     
-    /**
-     * Move the person a few pixels to the right.
-     */
+    /*Move the person a few pixels to the right.*/
     public void moveRight()
     {
         moveHorizontal(20);
     }
 
-    /**
-     * Move the person a few pixels to the left.
-     */
+    /*Move the person a few pixels to the left.*/
     public void moveLeft()
     {
         moveHorizontal(-20);
     }
 
-    /**
-     * Move the person a few pixels up.
-     */
+    /*Move the person a few pixels up.*/
     public void moveUp()
     {
         moveVertical(-20);
     }
 
-    /**
-     * Move the person a few pixels down.
-     */
+    /*Move the person a few pixels down.*/
     public void moveDown()
     {
         moveVertical(20);
     }
 
-    /**
-     * Move the person horizontally by 'distance' pixels.
-     */
+    /*Move the person horizontally by 'distance' pixels.*/
     public void moveHorizontal(int distance)
     {
         erase();
@@ -85,9 +71,7 @@ public class Person
         draw();
     }
 
-    /**
-     * Move the person vertically by 'distance' pixels.
-     */
+    /*Move the person vertically by 'distance' pixels.*/
     public void moveVertical(int distance)
     {
         erase();
@@ -95,9 +79,7 @@ public class Person
         draw();
     }
     
-     /**
-     * Slowly move the person horizontally by 'distance' pixels.
-     */
+     /*Slowly move the person horizontally by 'distance' pixels.*/
     public void slowMoveHorizontal(int distance)
     {
         int delta;
@@ -119,9 +101,7 @@ public class Person
         }
     }
 
-    /**
-     * Slowly move the person vertically by 'distance' pixels.
-     */
+    /*Slowly move the person vertically by 'distance' pixels.*/
     public void slowMoveVertical(int distance)
     {
         int delta;
@@ -143,9 +123,7 @@ public class Person
         }
     }
 
-    /**
-     * Change the size to the new size (in pixels). Size must be >= 0.
-     */
+    /*Change the size to the new size (in pixels). Size must be >= 0.*/
     public void changeSize(int newHeight, int newWidth)
     {
         erase();
@@ -154,19 +132,14 @@ public class Person
         draw();
     }
 
-    /**
-     * Change the color. Valid colors are "red", "yellow", "blue", "green",
-     * "magenta" and "black".
-     */
+    /*Change the color. Valid colors are "red", "yellow", "blue", "green","magenta" and "black".*/
     public void changeColor(String newColor)
     {
         color = newColor;
         draw();
     }
 
-    /**
-     * Draw the person with current specifications on screen.
-     */
+    /*Draw the person with current specifications on screen.*/
     private void draw()
     {
         int bh = (int)(height * 0.7);  // body height
@@ -188,9 +161,7 @@ public class Person
             canvas.wait(10);
         }
     }
-    /**
-     * Erase the person on screen.
-     */
+    /*Erase the person on screen.*/
     private void erase()
     {
         if(isVisible) {
