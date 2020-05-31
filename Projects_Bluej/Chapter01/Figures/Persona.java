@@ -14,9 +14,7 @@ public class Person
     private String color;
     private boolean isVisible;
 
-    /**
-     * Create a new person at default position with default color.
-     */
+    /*Create a new person at default position with default color.*/
     public Person()
     {
         height = 60;
