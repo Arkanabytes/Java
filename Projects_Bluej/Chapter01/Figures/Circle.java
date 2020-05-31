@@ -26,16 +26,14 @@ public class Circle
         draw();
     }
     
-    /*Make this circle invisible. If it was already invisible, do nothing.*/
-    
+    /*Make this circle invisible. If it was already invisible, do nothing.*/ 
     public void makeInvisible()
     {
         erase();
         isVisible = false;
     }
     
-    /*Move the circle a few pixels to the right.*/
-    
+    /*Move the circle a few pixels to the right.*/ 
     public void moveRight()
     {
         moveHorizontal(20);
@@ -53,13 +51,13 @@ public class Circle
         moveVertical(-20);
     }
 
-    /**Move the circle a few pixels down.*/
+    /*Move the circle a few pixels down.*/
     public void moveDown()
     {
         moveVertical(20);
     }
 
-    /**Move the circle horizontally by 'distance' pixels.*/
+    /*Move the circle horizontally by 'distance' pixels.*/
     public void moveHorizontal(int distance)
     {
         erase();
@@ -67,7 +65,7 @@ public class Circle
         draw();
     }
 
-    /**Move the circle vertically by 'distance' pixels.*/
+    /*Move the circle vertically by 'distance' pixels.*/
     public void moveVertical(int distance)
     {
         erase();
@@ -76,7 +74,6 @@ public class Circle
     }
 
     /*Slowly move the circle horizontally by 'distance' pixels.*/
-    
     public void slowMoveHorizontal(int distance)
     {
         int delta;
