@@ -1,9 +1,5 @@
+/*Alejandra Pinto - Arkana*/
 import java.awt.*;
-
-/**
- * A person that can be manipulated and that draws itself on a canvas.
- * @author  Arkana - Alejandra Pinto
- * @version 2018*/
 
 public class Person
 {
@@ -161,6 +157,7 @@ public class Person
             canvas.wait(10);
         }
     }
+    
     /*Erase the person on screen.*/
     private void erase()
     {
