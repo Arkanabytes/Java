@@ -101,9 +101,7 @@ public class Square
         }
     }
 
-    /**
-     * Slowly move the square vertically by 'distance' pixels.
-     */
+    /*Slowly move the square vertically by 'distance' pixels.*/
     public void slowMoveVertical(int distance)
     {
         int delta;
