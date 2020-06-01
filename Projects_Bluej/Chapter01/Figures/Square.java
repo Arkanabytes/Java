@@ -79,9 +79,7 @@ public class Square
         draw();
     }
 
-    /**
-     * Slowly move the square horizontally by 'distance' pixels.
-     */
+    /*Slowly move the square horizontally by 'distance' pixels.*/
     public void slowMoveHorizontal(int distance)
     {
         int delta;
