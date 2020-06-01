@@ -71,9 +71,7 @@ public class Square
         draw();
     }
 
-    /**
-     * Move the square vertically by 'distance' pixels.
-     */
+    /*Move the square vertically by 'distance' pixels.*/
     public void moveVertical(int distance)
     {
         erase();
