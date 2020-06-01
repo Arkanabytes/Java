@@ -63,9 +63,7 @@ public class Square
         moveVertical(20);
     }
 
-    /**
-     * Move the square horizontally by 'distance' pixels.
-     */
+    /*Move the square horizontally by 'distance' pixels.*/
     public void moveHorizontal(int distance)
     {
         erase();
