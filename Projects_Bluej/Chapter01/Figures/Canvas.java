@@ -18,9 +18,7 @@ public class Canvas
 
     private static Canvas canvasSingleton;
 
-    /**
-     * Factory method to get the canvas singleton object.
-     */
+    /*Factory method to get the canvas singleton object.*/
     public static Canvas getCanvas()
     {
         if(canvasSingleton == null) {
@@ -111,10 +109,8 @@ public class Canvas
         redraw();
     }
 
-    /**
-     * Set the foreground color of the Canvas.
-     * @param  newColor   the new color for the foreground of the Canvas 
-     */
+    /*Set the foreground color of the Canvas.
+     * @param  newColor   the new color for the foreground of the Canvas*/
     public void setForegroundColor(String colorString)
     {
         if(colorString.equals("red")) {
@@ -161,9 +157,7 @@ public class Canvas
         }
     }
 
-    /**
-     * Redraw ell shapes currently on the Canvas.
-     */
+    /*Redraw ell shapes currently on the Canvas.*/
     private void redraw()
     {
         erase();
@@ -173,9 +167,7 @@ public class Canvas
         canvas.repaint();
     }
        
-    /**
-     * Erase the whole canvas. (Does not repaint.)
-     */
+    /*Erase the whole canvas. (Does not repaint.)*/
     private void erase()
     {
         Color original = graphic.getColor();
@@ -187,8 +179,7 @@ public class Canvas
     /************************************************************************
      * Inner class CanvasPane - the actual canvas component contained in the
      * Canvas frame. This is essentially a JPanel with added capability to
-     * refresh the image drawn on it.
-     */
+     * refresh the image drawn on it.*/
     private class CanvasPane extends JPanel
     {
         public void paint(Graphics g)
