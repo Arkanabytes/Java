@@ -51,17 +51,13 @@ public class Square
         moveHorizontal(-20);
     }
     
-     /**
-     * Move the square a few pixels up.
-     */
+     /*Move the square a few pixels up.*/
     public void moveUp()
     {
         moveVertical(-20);
     }
 
-    /**
-     * Move the square a few pixels down.
-     */
+    /*Move the square a few pixels down.*/
     public void moveDown()
     {
         moveVertical(20);
