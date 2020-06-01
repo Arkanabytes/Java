@@ -159,9 +159,7 @@ public class Square
         }
     }
 
-    /**
-     * Erase the square on screen.
-     */
+    /*Erase the square on screen.*/
     private void erase()
     {
         if(isVisible) {
