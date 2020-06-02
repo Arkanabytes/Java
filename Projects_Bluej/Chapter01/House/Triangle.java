@@ -29,18 +29,14 @@ public class Triangle
         draw();
     }
     
-    /**
-     * Make this triangle invisible. If it was already invisible, do nothing.
-     */
+    /*Make this triangle invisible. If it was already invisible, do nothing.*/
     public void makeInvisible()
     {
         erase();
         isVisible = false;
     }
     
-    /**
-     * Move the triangle a few pixels to the right.
-     */
+    /*Move the triangle a few pixels to the right.*/
     public void moveRight()
     {
         moveHorizontal(20);
