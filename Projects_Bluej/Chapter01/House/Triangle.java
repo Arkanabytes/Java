@@ -135,9 +135,7 @@ public class Triangle
         draw();
     }
 
-    /**
-     * Draw the triangle with current specifications on screen.
-     */
+    /*Draw the triangle with current specifications on screen.*/
     private void draw()
     {
         if(isVisible) {
@@ -149,9 +147,7 @@ public class Triangle
         }
     }
 
-    /**
-     * Erase the triangle on screen.
-     */
+    /*Erase the triangle on screen.*/
     private void erase()
     {
         if(isVisible) {
