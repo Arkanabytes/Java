@@ -11,9 +11,7 @@ public class Triangle
     private String color;
     private boolean isVisible;
 
-    /**
-     * Create a new triangle at default position with default color.
-     */
+    /*Create a new triangle at default position with default color.*/
     public Triangle()
     {
         height = 60;
@@ -24,9 +22,7 @@ public class Triangle
         isVisible = false;
     }
 
-    /**
-     * Make this triangle visible. If it was already visible, do nothing.
-     */
+    /*Make this triangle visible. If it was already visible, do nothing.*/
     public void makeVisible()
     {
         isVisible = true;
