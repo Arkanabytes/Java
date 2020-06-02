@@ -1,7 +1,6 @@
 import java.awt.*;
 
 /*A triangle that can be manipulated and that draws itself on a canvas.*/
-
 public class Triangle
 {
     private int height;
@@ -42,33 +41,25 @@ public class Triangle
         moveHorizontal(20);
     }
 
-    /**
-     * Move the triangle a few pixels to the left.
-     */
+    /*Move the triangle a few pixels to the left.*/
     public void moveLeft()
     {
         moveHorizontal(-20);
     }
 
-    /**
-     * Move the triangle a few pixels up.
-     */
+    /*Move the triangle a few pixels up.*/
     public void moveUp()
     {
         moveVertical(-20);
     }
 
-    /**
-     * Move the triangle a few pixels down.
-     */
+    /*Move the triangle a few pixels down.*/
     public void moveDown()
     {
         moveVertical(20);
     }
 
-    /**
-     * Move the triangle horizontally by 'distance' pixels.
-     */
+    /*Move the triangle horizontally by 'distance' pixels.*/
     public void moveHorizontal(int distance)
     {
         erase();
@@ -76,9 +67,7 @@ public class Triangle
         draw();
     }
 
-    /**
-     * Move the triangle vertically by 'distance' pixels.
-     */
+    /*Move the triangle vertically by 'distance' pixels.*/
     public void moveVertical(int distance)
     {
         erase();
@@ -86,9 +75,7 @@ public class Triangle
         draw();
     }
 
-    /**
-     * Slowly move the triangle horizontally by 'distance' pixels.
-     */
+    /*Slowly move the triangle horizontally by 'distance' pixels.*/
     public void slowMoveHorizontal(int distance)
     {
         int delta;
@@ -110,9 +97,7 @@ public class Triangle
         }
     }
 
-    /**
-     * Slowly move the triangle vertically by 'distance' pixels.
-     */
+    /*Slowly move the triangle vertically by 'distance' pixels.*/
     public void slowMoveVertical(int distance)
     {
         int delta;
@@ -134,9 +119,7 @@ public class Triangle
         }
     }
 
-    /**
-     * Change the size to the new size (in pixels). Size must be >= 0.
-     */
+    /*Change the size to the new size (in pixels). Size must be >= 0.*/
     public void changeSize(int newHeight, int newWidth)
     {
         erase();
@@ -145,10 +128,7 @@ public class Triangle
         draw();
     }
 
-    /**
-     * Change the color. Valid colors are "red", "yellow", "blue", "green",
-     * "magenta" and "black".
-     */
+    /*Change the color. Valid colors are "red", "yellow", "blue", "green","magenta" and "black".*/
     public void changeColor(String newColor)
     {
         color = newColor;
