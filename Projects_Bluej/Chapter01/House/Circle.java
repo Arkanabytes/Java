@@ -50,17 +50,13 @@ public class Circle
         moveVertical(-20);
     }
 
-    /**
-     * Move the circle a few pixels down.
-     */
+    /*Move the circle a few pixels down.*/
     public void moveDown()
     {
         moveVertical(20);
     }
 
-    /**
-     * Move the circle horizontally by 'distance' pixels.
-     */
+    /*Move the circle horizontally by 'distance' pixels.*/
     public void moveHorizontal(int distance)
     {
         erase();
