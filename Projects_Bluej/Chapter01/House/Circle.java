@@ -32,25 +32,19 @@ public class Circle
         isVisible = false;
     }
     
-    /**
-     * Move the circle a few pixels to the right.
-     */
+    /*Move the circle a few pixels to the right.*/
     public void moveRight()
     {
         moveHorizontal(20);
     }
 
-    /**
-     * Move the circle a few pixels to the left.
-     */
+    /*Move the circle a few pixels to the left.*/
     public void moveLeft()
     {
         moveHorizontal(-20);
     }
 
-    /**
-     * Move the circle a few pixels up.
-     */
+    /*Move the circle a few pixels up.*/
     public void moveUp()
     {
         moveVertical(-20);
