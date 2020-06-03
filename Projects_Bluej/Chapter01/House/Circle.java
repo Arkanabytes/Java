@@ -64,9 +64,7 @@ public class Circle
         draw();
     }
 
-    /**
-     * Move the circle vertically by 'distance' pixels.
-     */
+    /*Move the circle vertically by 'distance' pixels.*/
     public void moveVertical(int distance)
     {
         erase();
@@ -74,9 +72,7 @@ public class Circle
         draw();
     }
 
-    /**
-     * Slowly move the circle horizontally by 'distance' pixels.
-     */
+    /*Slowly move the circle horizontally by 'distance' pixels.*/
     public void slowMoveHorizontal(int distance)
     {
         int delta;
@@ -98,9 +94,7 @@ public class Circle
         }
     }
 
-    /**
-     * Slowly move the circle vertically by 'distance' pixels.
-     */
+    /*Slowly move the circle vertically by 'distance' pixels.*/
     public void slowMoveVertical(int distance)
     {
         int delta;
@@ -122,9 +116,7 @@ public class Circle
         }
     }
 
-    /**
-     * Change the size to the new size (in pixels). Size must be >= 0.
-     */
+    /*Change the size to the new size (in pixels). Size must be >= 0.*/
     public void changeSize(int newDiameter)
     {
         erase();
@@ -132,19 +124,14 @@ public class Circle
         draw();
     }
 
-    /**
-     * Change the color. Valid colors are "red", "yellow", "blue", "green",
-     * "magenta" and "black".
-     */
+    /*Change the color. Valid colors are "red", "yellow", "blue", "green","magenta" and "black".*/
     public void changeColor(String newColor)
     {
         color = newColor;
         draw();
     }
 
-    /**
-     * Draw the circle with current specifications on screen.
-     */
+    /*Draw the circle with current specifications on screen.*/
     private void draw()
     {
         if(isVisible) {
@@ -155,9 +142,7 @@ public class Circle
         }
     }
 
-    /**
-     * Erase the circle on screen.
-     */
+    /*Erase the circle on screen.*/
     private void erase()
     {
         if(isVisible) {
