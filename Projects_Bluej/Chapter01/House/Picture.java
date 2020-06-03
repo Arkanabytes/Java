@@ -15,9 +15,7 @@ public class Picture
     private boolean drawn;
     private Circle sunset;
 
-    /**
-     * Constructor for objects of class Picture
-     */
+    /* Constructor for objects of class Picture */
     public Picture()
     {
         wall = new Square();
@@ -29,9 +27,7 @@ public class Picture
         drawn = true;
     }
 
-    /**
-     * Draw this picture.
-     */
+    /* Draw this picture.*/
     public void draw()
     {
         if(!Square) {
