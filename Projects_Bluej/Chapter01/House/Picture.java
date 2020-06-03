@@ -57,9 +57,7 @@ public class Picture
         }
     }
 
-    /**
-     * Change this picture to black/white display
-     */
+    /*Change this picture to black/white display*/
     public void setBlackAndWhite()
     {
         wall.changeColor("black");
@@ -68,9 +66,7 @@ public class Picture
         sun.changeColor("black");
     }
 
-    /**
-     * Change this picture to use color display
-     */
+    /*Change this picture to use color display*/
     public void setColor()
     {
         wall.changeColor("red");
