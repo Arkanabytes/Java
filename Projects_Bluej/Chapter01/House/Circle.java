@@ -9,7 +9,7 @@ public class Circle
     private String color;
     private boolean isVisible;
     
-    /** Create a new circle at default position with default color.*/
+    /*Create a new circle at default position with default color.*/
     public Circle()
     {
         diameter = 68;
