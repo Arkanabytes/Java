@@ -10,7 +10,6 @@ public class Circle
     private boolean isVisible;
     
     /** Create a new circle at default position with default color.*/
-    
     public Circle()
     {
         diameter = 68;
@@ -19,18 +18,14 @@ public class Circle
         color = "blue";
     }
 
-    /**
-     * Make this circle visible. If it was already visible, do nothing.
-     */
+    /**Make this circle visible. If it was already visible, do nothing.*/
     public void makeVisible()
     {
         isVisible = true;
         draw();
     }
     
-    /**
-     * Make this circle invisible. If it was already invisible, do nothing.
-     */
+    /*Make this circle invisible. If it was already invisible, do nothing.*/
     public void makeInvisible()
     {
         erase();
