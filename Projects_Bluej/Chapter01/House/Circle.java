@@ -18,7 +18,7 @@ public class Circle
         color = "blue";
     }
 
-    /**Make this circle visible. If it was already visible, do nothing.*/
+    /*Make this circle visible. If it was already visible, do nothing.*/
     public void makeVisible()
     {
         isVisible = true;
