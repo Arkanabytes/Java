@@ -149,9 +149,7 @@ public class Square
         draw();
     }
 
-    /**
-     * Draw the square with current specifications on screen.
-     */
+    /*Draw the square with current specifications on screen.*/
     private void draw()
     {
         if(isVisible) {
@@ -162,9 +160,7 @@ public class Square
         }
     }
 
-    /**
-     * Erase the square on screen.
-     */
+    /*Erase the square on screen.*/
     private void erase()
     {
         if(isVisible) {
