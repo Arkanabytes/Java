@@ -140,19 +140,14 @@ public class Person
         draw();
     }
 
-    /**
-     * Change the color. Valid colors are "red", "yellow", "blue", "green",
-     * "magenta" and "black".
-     */
+    /*Change the color. Valid colors are "red", "yellow", "blue", "green","magenta" and "black".*/
     public void changeColor(String newColor)
     {
         color = newColor;
         draw();
     }
 
-    /**
-     * Draw the person with current specifications on screen.
-     */
+    /*Draw the person with current specifications on screen.*/
     private void draw()
     {
         int bh = (int)(height * 0.7);  // body height
@@ -175,9 +170,7 @@ public class Person
         }
     }
 
-    /**
-     * Erase the person on screen.
-     */
+    /*Erase the person on screen.*/
     private void erase()
     {
         if(isVisible) {
