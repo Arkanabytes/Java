@@ -158,9 +158,7 @@ public class Canvas
         }
     }
 
-    /**
-     * Redraw ell shapes currently on the Canvas.
-     */
+    /*Redraw ell shapes currently on the Canvas.*/
     private void redraw()
     {
         erase();
@@ -170,9 +168,7 @@ public class Canvas
         canvas.repaint();
     }
        
-    /**
-     * Erase the whole canvas. (Does not repaint.)
-     */
+    /*Erase the whole canvas. (Does not repaint.)*/
     private void erase()
     {
         Color original = graphic.getColor();
@@ -218,5 +214,4 @@ public class Canvas
             graphic.fill(shape);
         }
     }
-
 }
