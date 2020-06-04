@@ -33,9 +33,7 @@ public class Person
         isVisible = false;
     }
     
-    /**
-     * Move the person a few pixels to the right.
-     */
+    /*Move the person a few pixels to the right.*/
     public void moveRight()
     {
         moveHorizontal(20);
@@ -57,9 +55,7 @@ public class Person
         moveVertical(-20);
     }
 
-    /**
-     * Move the person a few pixels down.
-     */
+    /*Move the person a few pixels down.*/
     public void moveDown()
     {
         moveVertical(20);
