@@ -45,9 +45,7 @@ public class Person
         moveHorizontal(-20);
     }
 
-    /**
-     * Move the person a few pixels up.
-     */
+    /*Move the person a few pixels up.*/
     public void moveUp()
     {
         moveVertical(-20);
