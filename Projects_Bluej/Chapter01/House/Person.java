@@ -19,18 +19,14 @@ public class Person
         isVisible = false;
     }
 
-    /**
-     * Make this person visible. If it was already visible, do nothing.
-     */
+    /*Make this person visible. If it was already visible, do nothing.*/
     public void makeVisible()
     {
         isVisible = true;
         draw();
     }
     
-    /**
-     * Make this person invisible. If it was already invisible, do nothing.
-     */
+    /*Make this person invisible. If it was already invisible, do nothing.*/
     public void makeInvisible()
     {
         erase();
