@@ -79,9 +79,7 @@ public class Person
         draw();
     }
 
-    /**
-     * Slowly move the person horizontally by 'distance' pixels.
-     */
+    /*Slowly move the person horizontally by 'distance' pixels.*/
     public void slowMoveHorizontal(int distance)
     {
         int delta;
