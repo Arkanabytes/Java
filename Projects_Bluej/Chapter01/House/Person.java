@@ -39,9 +39,7 @@ public class Person
         moveHorizontal(20);
     }
 
-    /**
-     * Move the person a few pixels to the left.
-     */
+    /*Move the person a few pixels to the left.*/
     public void moveLeft()
     {
         moveHorizontal(-20);
