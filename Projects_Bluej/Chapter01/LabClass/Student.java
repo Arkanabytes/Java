@@ -1,10 +1,6 @@
-
 /**
  * The Student class represents a student in a student administration system.
  * It holds the student details relevant in our context.
- * 
- * @author Alejandra Pinto
- * @version 2016.02.29
  */
 public class Student
 {
@@ -15,9 +11,7 @@ public class Student
     // the amount of credits for study taken so far
     private int credits;
 
-    /**
-     * Create a new student with a given name and ID number.
-     */
+    /*Create a new student with a given name and ID number.*/
     public Student(String fullName, String studentID)
     {
         name = fullName;
@@ -25,17 +19,13 @@ public class Student
         credits = 0;
     }
 
-    /**
-     * Return the full name of this student.
-     */
+    /*Return the full name of this student.*/
     public String getName()
     {
         return name;
     }
 
-    /**
-     * Set a new name for this student.
-     */
+    /*Set a new name for this student.*/
     public void changeName(String replacementName)
     {
         name = replacementName;
