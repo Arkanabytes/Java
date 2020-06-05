@@ -19,9 +19,7 @@ public class Square
         isVisible = false;
     }
 
-    /**
-     * Make this square visible. If it was already visible, do nothing.
-     */
+    /*Make this square visible. If it was already visible, do nothing.*/
     public void makeVisible()
     {
         isVisible = true;
@@ -53,17 +51,13 @@ public class Square
         moveVertical(-20);
     }
 
-    /**
-     * Move the square a few pixels down.
-     */
+    /*Move the square a few pixels down.*/
     public void moveDown()
     {
         moveVertical(20);
     }
 
-    /**
-     * Move the square horizontally by 'distance' pixels.
-     */
+    /*Move the square horizontally by 'distance' pixels.*/
     public void moveHorizontal(int distance)
     {
         erase();
@@ -71,9 +65,7 @@ public class Square
         draw();
     }
 
-    /**
-     * Move the square vertically by 'distance' pixels.
-     */
+    /*Move the square vertically by 'distance' pixels.*/
     public void moveVertical(int distance)
     {
         erase();
