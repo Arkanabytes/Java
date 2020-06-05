@@ -1,12 +1,8 @@
 import java.util.*;
 
-/**
- * The LabClass class represents an enrolment list for one lab class. It stores
- * the time, room and participants of the lab, as well as the instructor's name.
- * 
- * @author Alejandra Pinto
- * @version 2016.02.29
- */
+/*The LabClass class represents an enrolment list for one lab class. It stores
+ * the time, room and participants of the lab, as well as the instructor's name.*/
+
 public class LabClass
 {
     private String instructor;
@@ -54,18 +50,13 @@ public class LabClass
         timeAndDay = timeAndDayString;
     }
     
-    /**
-     * Set the name of the instructor for this LabClass.
-     */
+    /*Set the name of the instructor for this LabClass.*/
     public void setInstructor(String instructorName)
     {
         instructor = instructorName;
     }
     
-    /**
-     * Print out a class list with other LabClass details to the standard
-     * terminal.
-     */
+    /*Print out a class list with other LabClass details to the standard terminal.*/
     public void printList()
     {
         System.out.println("Lab class " + timeAndDay);
