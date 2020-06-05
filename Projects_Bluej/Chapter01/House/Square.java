@@ -117,9 +117,7 @@ public class Square
         }
     }
 
-    /**
-     * Change the size to the new size (in pixels). Size must be >= 0.
-     */
+    /*Change the size to the new size (in pixels). Size must be >= 0.*/
     public void changeSize(int newSize)
     {
         erase();
