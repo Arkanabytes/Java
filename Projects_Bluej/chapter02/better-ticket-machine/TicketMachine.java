@@ -22,9 +22,7 @@ public class TicketMachine
         total = 0;
     }
 
-    /**
-     * @Return The price of a ticket.
-     */
+    /*@Return The price of a ticket.*/
     public int getPrice()
     {
         return price;
