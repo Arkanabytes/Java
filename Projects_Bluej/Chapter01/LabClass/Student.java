@@ -31,9 +31,7 @@ public class Student
         name = replacementName;
     }
 
-    /**
-     * Return the student ID of this student.
-     */
+    /*Return the student ID of this student.*/
     public String getStudentID()
     {
         return id;
