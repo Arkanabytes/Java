@@ -46,11 +46,9 @@ public class TicketMachine
         }
     }
 
-    /**
-     * Print a ticket if enough money has been inserted, and
+    /*Print a ticket if enough money has been inserted, and
      * reduce the current balance by the ticket price. Print
-     * an error message if more money is required.
-     */
+     * an error message if more money is required.*/
     public void printTicket()
     {
         if(balance >= price) {
