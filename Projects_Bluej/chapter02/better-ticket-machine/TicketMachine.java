@@ -39,10 +39,7 @@ public class TicketMachine
         return balance;
     }
 
-    /**
-     * Receive an amount of money from a customer.
-     * Check that the amount is sensible.
-     */
+    /*Receive an amount of money from a customer.Check that the amount is sensible.*/
     public void insertMoney(int amount)
     {
         if(amount > 0) {
