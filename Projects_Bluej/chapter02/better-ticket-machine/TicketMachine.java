@@ -82,10 +82,7 @@ public class TicketMachine
         }
     }
 
-    /**
-     * Return the money in the balance.
-     * The balance is cleared.
-     */
+    /*Return the money in the balance.The balance is cleared.*/
     public int refundBalance()
     {
         int amountToRefund;
