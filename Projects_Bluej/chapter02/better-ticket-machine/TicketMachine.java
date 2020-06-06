@@ -61,7 +61,7 @@ public class TicketMachine
             System.out.println("# " + price + " cents.");
             System.out.println("##################");
             System.out.println();
-
+            
             // Update the total collected with the price.
             total = total + price;
             // Reduce the balance by the price.
@@ -73,7 +73,6 @@ public class TicketMachine
                     
         }
     }
-
     /*Return the money in the balance.The balance is cleared.*/
     public int refundBalance()
     {
