@@ -4,11 +4,7 @@
  * The price of a ticket is specified via the constructor.
  * Instances will check to ensure that a user only enters
  * sensible amounts of money, and will only print a ticket
- * if enough money has been input.
- * 
- * @author David J. Barnes and Michael Kölling
- * @version 2016.02.29
- */
+ * if enough money has been input.*/
 public class TicketMachine
 {
     // The price of a ticket from this machine.
