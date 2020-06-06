@@ -28,10 +28,7 @@ public class TicketMachine
         return price;
     }
 
-    /**
-     * Return The amount of money already inserted for the
-     * next ticket.
-     */
+    /*Return The amount of money already inserted for the next ticket.*/
     public int getBalance()
     {
         return balance;
