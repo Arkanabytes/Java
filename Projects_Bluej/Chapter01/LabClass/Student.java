@@ -37,9 +37,7 @@ public class Student
         return id;
     }
 
-    /**
-     * Add some credit points to the student's accumulated credits.
-     */
+    /*Add some credit points to the student's accumulated credits.*/
     public void addCredits(int additionalPoints)
     {
         credits += additionalPoints;
