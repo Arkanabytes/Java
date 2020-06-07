@@ -47,13 +47,11 @@ public class ClockDisplay
         minutes.setValue(minute);
         updateDisplay();
     }
-
     /*Return the current time of this display in the format HH:MM.*/
     public String getTime()
     {
         return displayString;
     }
-    
     /*Update the internal string that represents the display.*/
     private void updateDisplay()
     {
