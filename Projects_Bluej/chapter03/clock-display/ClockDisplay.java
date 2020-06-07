@@ -41,10 +41,7 @@ public class ClockDisplay
         setTime(hour, minute);
     }
 
-    /**
-     * This method should get called once every minute - it makes
-     * the clock display go one minute forward.
-     */
+    /*This method should get called once every minute - it makes the clock display go one minute forward.*/
     public void timeTick()
     {
         minutes.increment();
