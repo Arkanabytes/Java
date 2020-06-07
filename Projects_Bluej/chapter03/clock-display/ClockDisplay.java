@@ -25,7 +25,6 @@ public class ClockDisplay
         minutes = new NumberDisplay(60);
         updateDisplay();
     }
-
     /*Constructor for ClockDisplay objects. This constructor creates a new clock set at the time specified by the parameters.*/
     public ClockDisplay(int hour, int minute)
     {
