@@ -40,7 +40,6 @@ public class ClockDisplay
         }
         updateDisplay();
     }
-
     /*Set the time of the display to the specified hour and minute.*/
     public void setTime(int hour, int minute)
     {
