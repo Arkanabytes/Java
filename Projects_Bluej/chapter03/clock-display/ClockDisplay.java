@@ -73,9 +73,7 @@ public class ClockDisplay
         return displayString;
     }
     
-    /**
-     * Update the internal string that represents the display.
-     */
+    /*Update the internal string that represents the display.*/
     private void updateDisplay()
     {
         displayString = hours.getDisplayValue() + ":" + 
