@@ -4,11 +4,7 @@ import java.util.Iterator;
 
 /**
  * A simple model of a mail server. The server is able to receive
- * mail items for storage, and deliver them to clients on demand.
- * 
- * @author David J. Barnes and Michael Kölling
- * @version 2016.02.29
- */
+ * mail items for storage, and deliver them to clients on demand.*/
 public class MailServer
 {
     // Storage for the arbitrary number of mail items to be stored
@@ -39,8 +35,7 @@ public class MailServer
         return count;
     }
 
-    /**
-     * Return the next mail item for a user or null if there
+    /*Return the next mail item for a user or null if there
      * are none.
      * @param who The user requesting their next item.
      * @return The user's next item.
