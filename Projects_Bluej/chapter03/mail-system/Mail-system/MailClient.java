@@ -32,12 +32,9 @@ public class MailClient
         }
     }
 
-    /**
-     * Send the given message to the given recipient via
-     * the attached mail server.
+    /*Send the given message to the given recipient via the attached mail server.
      * @param to The intended recipient.
-     * @param message The text of the message to be sent.
-     */
+     * @param message The text of the message to be sent.*/
     public void sendMailItem(String to, String message)
     {
         MailItem item = new MailItem(user, to, message);
