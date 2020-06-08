@@ -2,8 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Iterator;
 
-/**
- * A simple model of a mail server. The server is able to receive
+/*A simple model of a mail server. The server is able to receive
  * mail items for storage, and deliver them to clients on demand.*/
 public class MailServer
 {
@@ -11,9 +10,7 @@ public class MailServer
     // on the server.
     private List<MailItem> items;
 
-    /**
-     * Construct a mail server.
-     */
+    /*Construct a mail server.*/
     public MailServer()
     {
         items = new ArrayList<>();
