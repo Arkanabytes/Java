@@ -19,18 +19,13 @@ public class MailClient
         this.user = user;
     }
 
-    /**
-     * Return the next mail item (if any) for this user.
-     */
+    /*Return the next mail item (if any) for this user.*/
     public MailItem getNextMailItem()
     {
         return server.getNextMailItem(user);
     }
 
-    /**
-     * Print the next mail item (if any) for this user to the text 
-     * terminal.
-     */
+    /*Print the next mail item (if any) for this user to the text terminal.*/
     public void printNextMailItem()
     {
         MailItem item = server.getNextMailItem(user);
