@@ -12,9 +12,7 @@ public class MailClient
     // The user running this client.
     private String user;
 
-    /**
-     * Create a mail client run by user and attached to the given server.
-     */
+    /*Create a mail client run by user and attached to the given server.*/
     public MailClient(MailServer server, String user)
     {
         this.server = server;
