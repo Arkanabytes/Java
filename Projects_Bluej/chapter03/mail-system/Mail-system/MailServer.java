@@ -51,8 +51,7 @@ public class MailServer
     }
 
     /*Add the given mail item to the message list.
-     * @param item The mail item to be stored on the server.
-     */
+     * @param item The mail item to be stored on the server.*/
     public void post(MailItem item)
     {
         items.add(item);
