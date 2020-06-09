@@ -22,9 +22,7 @@ public class NumberDisplay
         value = 0;
     }
 
-    /**
-     * Return the current value.
-     */
+    /*Return the current value.*/
     public int getValue()
     {
         return value;
