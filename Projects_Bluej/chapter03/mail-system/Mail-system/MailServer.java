@@ -31,8 +31,7 @@ public class MailServer
         return count;
     }
 
-    /*Return the next mail item for a user or null if there
-     * are none.
+    /*Return the next mail item for a user or null if there are none.
      * @param who The user requesting their next item.
      * @return The user's next item.
      */
