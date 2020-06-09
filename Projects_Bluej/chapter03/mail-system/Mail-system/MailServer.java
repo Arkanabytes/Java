@@ -18,8 +18,7 @@ public class MailServer
 
     /*Return how many mail items are waiting for a user.
      * @param who The user to check for.
-     * @return How many items are waiting.
-     */
+     * @return How many items are waiting.*/
     public int howManyMailItems(String who)
     {
         int count = 0;
