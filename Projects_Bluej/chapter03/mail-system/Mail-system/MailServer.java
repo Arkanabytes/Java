@@ -16,8 +16,7 @@ public class MailServer
         items = new ArrayList<>();
     }
 
-    /**
-     * Return how many mail items are waiting for a user.
+    /*Return how many mail items are waiting for a user.
      * @param who The user to check for.
      * @return How many items are waiting.
      */
