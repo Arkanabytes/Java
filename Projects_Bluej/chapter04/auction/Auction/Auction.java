@@ -10,9 +10,7 @@ public class Auction
     // into this auction.
     private int nextLotNumber;
 
-    /**
-     * Create a new auction.
-     */
+    /*Create a new auction.*/
     public Auction()
     {
         lots = new ArrayList<>();
