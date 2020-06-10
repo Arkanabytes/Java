@@ -24,9 +24,7 @@ public class Auction
         nextLotNumber++;
     }
 
-    /**
-     * Show the full list of lots in this auction.
-     */
+    /*Show the full list of lots in this auction.*/
     public void showLots()
     {
         for(Lot lot : lots) {
