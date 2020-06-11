@@ -1,5 +1,4 @@
-/**
- * A class that models an auction bid.
+/*A class that models an auction bid.
  * It contains a reference to the Person bidding and the amount bid.*/
 
 public class Bid
@@ -20,15 +19,14 @@ public class Bid
         this.value = value;
     }
 
-    /*@return The bidder.
-    */
+    /*@return The bidder.*/
     public Person getBidder()
     {
         return bidder;
     }
 
     /**
-     * @return The value of the bid.
+ @return The value of the bid.
      */
     public long getValue()
     {
