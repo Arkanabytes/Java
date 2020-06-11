@@ -1,6 +1,12 @@
 import java.util.ArrayList;
 
-/*A simple model of an auction. The auction maintains a list of lots of arbitrary length.*/
+/**
+ * A simple model of an auction.
+ * The auction maintains a list of lots of arbitrary length.
+ *
+ * @author Consuelo Pinto Toro
+ * @version 2016.02.29
+ */
 public class Auction
 {
     // The list of Lots in this auction.
@@ -9,21 +15,28 @@ public class Auction
     // into this auction.
     private int nextLotNumber;
 
-    /*Create a new auction.*/
+    /**
+     * Create a new auction.
+     */
     public Auction()
     {
         lots = new ArrayList<>();
         nextLotNumber = 1;
     }
 
-    /*Enter a new lot into the auction. @param description A description of the lot.*/
+    /**
+     * Enter a new lot into the auction.
+     * @param description A description of the lot.
+     */
     public void enterLot(String description)
     {
         lots.add(new Lot(nextLotNumber, description));
         nextLotNumber++;
     }
 
-    /*Show the full list of lots in this auction.*/
+    /**
+     * Show the full list of lots in this auction.
+     */
     public void showLots()
     {
         for(Lot lot : lots) {
@@ -31,7 +44,11 @@ public class Auction
         }
     }
     
-    /*Make a bid for a lot. A message is printed indicating whether the bid issuccessful or not. 
+    /**
+     * Make a bid for a lot.
+     * A message is printed indicating whether the bid is
+     * successful or not.
+     * 
      * @param lotNumber The lot being bid for.
      * @param bidder The person bidding for the lot.
      * @param value  The value of the bid.
@@ -56,7 +73,8 @@ public class Auction
         }
     }
 
-    /*Return the lot with the given number. Return null
+    /**
+     * Return the lot with the given number. Return null
      * if a lot with this number does not exist.
      * @param lotNumber The number of the lot to return.
      */
@@ -65,7 +83,8 @@ public class Auction
         if((lotNumber >= 1) && (lotNumber < nextLotNumber)) {
             // The number seems to be reasonable.
             Lot selectedLot = lots.get(lotNumber - 1);
-            // Include a confidence check to be sure we have the right lot.
+            // Include a confidence check to be sure we have the
+            // right lot.
             if(selectedLot.getNumber() != lotNumber) {
                 System.out.println("Internal error: Lot number " +
                                    selectedLot.getNumber() +
