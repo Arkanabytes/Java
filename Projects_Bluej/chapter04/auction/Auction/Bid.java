@@ -1,10 +1,7 @@
 /**
  * A class that models an auction bid.
- * It contains a reference to the Person bidding and the amount bid.
- * 
- * @author Consuelo Pinto
- * @version 2016.02.29
- */
+ * It contains a reference to the Person bidding and the amount bid.*/
+
 public class Bid
 {
     // The person making the bid.
@@ -13,20 +10,18 @@ public class Bid
     // the long type has been used.
     private final long value;
 
-    /**
-     * Create a bid.
+    /*Create a bid.
      * @param bidder Who is bidding for the lot.
-     * @param value The value of the bid.
-     */
+     * @param value The value of the bid.*/
+    
     public Bid(Person bidder, long value)
     {
         this.bidder = bidder;
         this.value = value;
     }
 
-    /**
-     * @return The bidder.
-     */
+    /*@return The bidder.
+    */
     public Person getBidder()
     {
         return bidder;
