@@ -1,9 +1,4 @@
-/**
- * Store details of a club membership.
- * 
- * @author Consuelo Pinto
- * @version 2016.01.15
- */
+/*Store details of a club membership.*/
 public class Membership
 {
     // The name of the member.
@@ -31,26 +26,19 @@ public class Membership
         this.year = year;
     }
     
-    /**
-     * @return The member's name.
-     */
+    /*@return The member's name.*/
     public String getName()
     {
         return name;
     }
     
-    /**
-     * @return The month in which the member joined.
-     *         A value in the range 1 ... 12
-     */
+    /*@return The month in which the member joined. A value in the range 1 ... 12 */
     public int getMonth()
     {
         return month;
     }
 
-    /**
-     * @return The year in which the member joined.
-     */
+    /*@return The year in which the member joined.*/
     public int getYear()
     {
         return year;
