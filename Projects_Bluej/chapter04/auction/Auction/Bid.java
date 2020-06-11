@@ -25,9 +25,7 @@ public class Bid
         return bidder;
     }
 
-    /**
- @return The value of the bid.
-     */
+    /**@return The value of the bid.*/
     public long getValue()
     {
         return value;
