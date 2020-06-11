@@ -1,5 +1,4 @@
 /*Provide a demonstration of the Club and Membership classes. */
-
 public class ClubDemo
 {
     // instance variables - replace the example below with your own
