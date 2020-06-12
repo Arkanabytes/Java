@@ -21,9 +21,7 @@ public class Product
         quantity = 0;
     }
 
-    /**
-     * @return The product's id.
-     */
+    /*@return The product's id.*/
     public int getID()
     {
         return id;
