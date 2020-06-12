@@ -1,9 +1,4 @@
-/**
- * Store details of club memberships.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+/*Store details of club memberships.*/
 public class Club
 {
     // Define any necessary fields here ...
