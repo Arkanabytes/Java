@@ -27,9 +27,7 @@ public class Product
         return id;
     }
 
-    /**
-     * @return The product's name.
-     */
+    /*@return The product's name.*/
     public String getName()
     {
         return name;
