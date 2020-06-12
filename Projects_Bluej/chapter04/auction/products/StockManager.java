@@ -56,9 +56,7 @@ public class StockManager
         return 0;
     }
 
-    /**
-     * Print details of all the products.
-     */
+    /*Print details of all the products.*/
     public void printProductDetails()
     {
     }
