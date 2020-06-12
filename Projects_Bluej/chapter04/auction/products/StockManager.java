@@ -1,12 +1,7 @@
 import java.util.ArrayList;
 
-/**
- * Manage the stock in a business.
- * The stock is described by zero or more Products.
- * 
- * @author (Consuelo Pinto) 
- * @version (2016/02/02)
- */
+/*Manage the stock in a business.
+ * The stock is described by zero or more Products.*/
 public class StockManager
 {
     // A list of the products.
