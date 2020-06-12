@@ -44,9 +44,7 @@ public class Membership
         return year;
     }
 
-    /**
-     * @return A string representation of this membership.
-     */
+    /*@return A string representation of this membership.*/
     public String toString()
     {
         return "Name: " + name +
