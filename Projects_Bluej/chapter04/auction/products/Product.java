@@ -35,9 +35,7 @@ public class Product
         return name;
     }
 
-    /**
-     * @return The quantity in stock.
-     */
+    /*@return The quantity in stock.*/
     public int getQuantity()
     {
         return quantity;
