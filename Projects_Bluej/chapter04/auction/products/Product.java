@@ -46,12 +46,10 @@ public class Product
                " stock level: " + quantity;
     }
 
-    /**
-     * Restock with the given amount of this product.
+    /*Restock with the given amount of this product.
      * The current quantity is incremented by the given amount.
      * @param amount The number of new items added to the stock.
-     *               This must be greater than zero.
-     */
+     * This must be greater than zero.*/
     public void increaseQuantity(int amount)
     {
         if(amount > 0) {
