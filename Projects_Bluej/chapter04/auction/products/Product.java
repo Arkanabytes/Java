@@ -8,8 +8,7 @@ public class Product
     // The quantity of this product in stock.
     private int quantity;
 
-    /**
-     * Constructor for objects of class Product.
+    /*Constructor for objects of class Product.
      * The initial stock quantity is zero.
      * @param id The product's identifying number.
      * @param name The product's name.
