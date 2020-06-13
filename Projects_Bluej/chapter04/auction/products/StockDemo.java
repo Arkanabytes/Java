@@ -1,20 +1,13 @@
 /**Arkana
  * Demonstrate the StockManager and Product classes.
  * The demonstration becomes properly functional as
- * the StockManager class is completed.
- * 
- * @author Consuelo Pinto
- * @version 2016.01.29
- */
+ * the StockManager class is completed.*/
 public class StockDemo
 {
     // The stock manager.
     private StockManager manager;
 
-    /**
-     * Create a StockManager and populate it with a few
-     * sample products.
-     */
+    /*Create a StockManager and populate it with a few sample products.*/
     public StockDemo()
     {
         manager = new StockManager();
