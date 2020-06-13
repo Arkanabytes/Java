@@ -40,8 +40,7 @@ public class StockManager
      * many of this item are in stock. If the ID does not
      * match any product, return zero.
      * @param id The ID of the product.
-     * @return The quantity of the given product in stock.
-     */
+     * @return The quantity of the given product in stock.*/
     public int numberInStock(int id)
     {
         return 0;
