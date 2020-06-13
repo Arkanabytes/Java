@@ -19,9 +19,7 @@ public class StockManager
         stock.add(item);
     }
     
-    /**
-     * Receive a delivery of a particular product.
-     * Increase the quantity of the product by the given amount.
+    /*Receive a delivery of a particular product. Increase the quantity of the product by the given amount.
      * @param id The ID of the product.
      * @param amount The amount to increase the quantity by.*/
     public void delivery(int id, int amount)
