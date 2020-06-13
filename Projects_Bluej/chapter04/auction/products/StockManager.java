@@ -7,18 +7,13 @@ public class StockManager
     // A list of the products.
     private ArrayList<Product> stock;
 
-    /**
-     * Initialise the stock manager.
-     */
+    /*Initialise the stock manager.*/
     public StockManager()
     {
         stock = new ArrayList<>();
     }
 
-    /**
-     * Add a product to the list.
-     * @param item The item to be added.
-     */
+    /*Add a product to the list. @param item The item to be added.*/
     public void addProduct(Product item)
     {
         stock.add(item);
@@ -28,8 +23,7 @@ public class StockManager
      * Receive a delivery of a particular product.
      * Increase the quantity of the product by the given amount.
      * @param id The ID of the product.
-     * @param amount The amount to increase the quantity by.
-     */
+     * @param amount The amount to increase the quantity by.*/
     public void delivery(int id, int amount)
     {
     }
