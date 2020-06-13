@@ -1,7 +1,4 @@
-/**Arkana
- * Demonstrate the StockManager and Product classes.
- * The demonstration becomes properly functional as
- * the StockManager class is completed.*/
+/*Demonstrate the StockManager and Product classes. The demonstration becomes properly functional as the StockManager class is completed.*/
 public class StockDemo
 {
     // The stock manager.
