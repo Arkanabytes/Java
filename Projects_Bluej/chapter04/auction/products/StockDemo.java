@@ -34,10 +34,8 @@ public class StockDemo
         }
     }
     
-    /*Sell one of the given item.
-     * Show the before and after status of the product.
-     * @param id The ID of the product being sold.
-     */
+    /*Sell one of the given item. Show the before and after status of the product.
+    @param id The ID of the product being sold.*/
     public void sellProduct(int id)
     {
         Product product = getProduct(id);
