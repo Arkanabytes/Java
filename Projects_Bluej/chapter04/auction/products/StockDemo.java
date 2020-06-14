@@ -69,9 +69,7 @@ public class StockDemo
         return product;
     }
 
-    /**
-     * @return The stock manager.
-     */
+    /*@return The stock manager.*/
     public StockManager getManager()
     {
         return manager;
