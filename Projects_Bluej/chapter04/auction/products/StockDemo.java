@@ -14,8 +14,7 @@ public class StockDemo
     }
     
     /*Provide a very simple demonstration of how a StockManager might be used. Details of one product are shown, the
-     * product is restocked, and then the details are shown again.
-     */
+     * product is restocked, and then the details are shown again.*/
     public void demo()
     {
         // Show details of all of the products.
