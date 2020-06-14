@@ -24,8 +24,7 @@ public class StockDemo
         manager.printProductDetails();
     }
     
-    /**
-     * Show details of the given product. If found,
+    /**Show details of the given product. If found,
      * its name and stock quantity will be shown.
      * @param id The ID of the product to look for.
      */
