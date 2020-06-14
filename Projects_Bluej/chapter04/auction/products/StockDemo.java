@@ -13,9 +13,7 @@ public class StockDemo
         manager.addProduct(new Product(23,  "Microwave Oven"));
     }
     
-    /**
-     * Provide a very simple demonstration of how a StockManager
-     * might be used. Details of one product are shown, the
+    /*Provide a very simple demonstration of how a StockManager might be used. Details of one product are shown, the
      * product is restocked, and then the details are shown again.
      */
     public void demo()
