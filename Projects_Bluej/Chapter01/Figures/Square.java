@@ -2,8 +2,7 @@ import java.awt.*;
 
 /**
  * A square that can be manipulated and that draws itself on a canvas. 
- * @author  Alejandra Pinto
- * @author  Arkanabytes
+ * @author  Alejandra Pinto - Arkanabytes
  * @version 2016.02.29
  */
 
