@@ -28,10 +28,8 @@ public class Sighting
         this.period = period;
     }
 
-    /**
-     * Return the type of animal spotted.
-     * @return The animal type.
-     */
+    /*Return the type of animal spotted.
+     * @return The animal type.*/
     public String getAnimal() 
     {
         return animal;
