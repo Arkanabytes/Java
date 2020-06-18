@@ -1,9 +1,4 @@
-/**
- * Details of a sighting of a type of animal by an individual spotter.
- * 
- * @author Consuelo Pinto
- * @version 2016.02.29
- */
+/*Details of a sighting of a type of animal by an individual spotter.*/
 public class Sighting
 {
     // The animal spotted.
