@@ -40,9 +40,7 @@ public class Sighting
         return spotter;
     }
 
-    /*Return how many were spotted.
-     * @return The number seen.
-     */
+    /*Return how many were spotted. @return The number seen. */
     public int getCount() 
     {
         return count;
