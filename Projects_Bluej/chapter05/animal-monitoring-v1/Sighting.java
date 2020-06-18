@@ -12,8 +12,7 @@ public class Sighting
     // The reporting period.
     private final int period;
     
-    /**
-     * Create a record of a sighting of a particular type of animal.
+    /*Create a record of a sighting of a particular type of animal.
      * @param animal The animal spotted.
      * @param spotter The ID of the spotter.
      * @param count How many were seen (>= 0).
