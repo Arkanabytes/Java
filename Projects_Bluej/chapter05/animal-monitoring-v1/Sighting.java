@@ -17,8 +17,7 @@ public class Sighting
      * @param spotter The ID of the spotter.
      * @param count How many were seen (>= 0).
      * @param area The ID of the area in which they were seen.
-     * @param period The reporting period.
-     */
+     * @param period The reporting period.*/
     public Sighting(String animal, int spotter, int count, int area, int period)
     {
         this.animal = animal;
