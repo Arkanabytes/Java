@@ -37,10 +37,8 @@ public class Sighting
         return animal;
     }
 
-    /**
-     * Return the ID of the spotter.
-     * @return The spotter's ID.
-     */
+    /*Return the ID of the spotter.
+     * @return The spotter's ID.*/
     public int getSpotter() 
     {
         return spotter;
