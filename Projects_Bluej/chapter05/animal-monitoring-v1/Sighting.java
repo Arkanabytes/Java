@@ -66,8 +66,7 @@ public class Sighting
         return period;
     }
 
-    /**
-     * Return a string containing details of the animal, the number seen,
+    /*Return a string containing details of the animal, the number seen,
      * where they were seen, who spotted them and when.
      * @return A string giving details of the sighting.
      */
