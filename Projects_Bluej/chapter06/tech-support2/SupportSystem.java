@@ -40,9 +40,7 @@ public class SupportSystem
         printGoodbye();
     }
 
-    /**
-     * Print a welcome message to the screen.
-     */
+    /*Print a welcome message to the screen.*/
     private void printWelcome()
     {
         System.out.println("Welcome to the DodgySoft Technical Support System.");
@@ -52,8 +50,7 @@ public class SupportSystem
         System.out.println("to exit our system.");
     }
 
-    /**
-     * Print a good-bye message to the screen.
+    /*Print a good-bye message to the screen.
      */
     private void printGoodbye()
     {
