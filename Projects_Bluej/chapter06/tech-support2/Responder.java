@@ -1,15 +1,10 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-/**
- * The responder class represents a response generator object. It is used
+/*The responder class represents a response generator object. It is used
  * to generate an automatic response. This is the second version of this 
  * class. This time, we generate some random behavior by randomly selecting 
- * a phrase from a predefined list of responses.
- * 
- * @author     Michael Kölling and David J. Barnes
- * @version    0.2 (2016.02.29)
- */
+ * a phrase from a predefined list of responses. */
 public class Responder
 {
     private Random randomGenerator;
