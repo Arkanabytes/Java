@@ -50,8 +50,7 @@ public class SupportSystem
         System.out.println("to exit our system.");
     }
 
-    /*Print a good-bye message to the screen.
-     */
+    /*Print a good-bye message to the screen.*/
     private void printGoodbye()
     {
         System.out.println("Nice talking to you. Bye...");
