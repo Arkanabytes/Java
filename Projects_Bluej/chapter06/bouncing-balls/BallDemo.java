@@ -11,9 +11,7 @@ public class BallDemo
         myCanvas = new Canvas("Ball Demo", 600, 500);
     }
 
-    /**
-     * Simulate two bouncing balls
-     */
+    /*Simulate two bouncing balls*/
     public void bounce()
     {
         int ground = 400;   // position of the ground line
