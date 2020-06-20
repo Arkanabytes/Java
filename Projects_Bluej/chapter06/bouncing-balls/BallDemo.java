@@ -1,9 +1,6 @@
 import java.awt.Color;
 
-/**
- * Class BallDemo - a short demonstration showing animation with the 
- * Canvas class.*/
-
+/*Class BallDemo - a short demonstration showing animation with the Canvas class.*/
 public class BallDemo   
 {
     private Canvas myCanvas;
