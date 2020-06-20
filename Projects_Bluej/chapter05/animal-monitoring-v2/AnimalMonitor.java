@@ -7,9 +7,7 @@ public class AnimalMonitor
 {
     private ArrayList<Sighting> sightings;
     
-    /**
-     * Create an AnimalMonitor.
-     */
+    /*Create an AnimalMonitor.*/
     public AnimalMonitor()
     {
         this.sightings = new ArrayList<>();
