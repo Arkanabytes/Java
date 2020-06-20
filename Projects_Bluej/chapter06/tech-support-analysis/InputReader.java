@@ -1,11 +1,9 @@
 import java.util.HashSet;
 import java.util.Scanner;
 
-/**
- * InputReader reads typed text input from the standard text terminal. 
+/*InputReader reads typed text input from the standard text terminal. 
  * The text typed by a user is then chopped into words, and a set of words 
- * is provided.
- */
+ * is provided.*/
 public class InputReader
 {
     private Scanner reader;
