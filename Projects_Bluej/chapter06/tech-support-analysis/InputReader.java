@@ -8,9 +8,7 @@ public class InputReader
 {
     private Scanner reader;
 
-    /**
-     * Create a new InputReader that reads text from the text terminal.
-     */
+    /*Create a new InputReader that reads text from the text terminal.*/
     public InputReader()
     {
         reader = new Scanner(System.in);
