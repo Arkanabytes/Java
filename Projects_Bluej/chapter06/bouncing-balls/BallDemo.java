@@ -5,9 +5,7 @@ public class BallDemo
 {
     private Canvas myCanvas;
 
-    /**
-     * Create a BallDemo object. Creates a fresh canvas and makes it visible.
-     */
+    /*Create a BallDemo object. Creates a fresh canvas and makes it visible.*/
     public BallDemo()
     {
         myCanvas = new Canvas("Ball Demo", 600, 500);
