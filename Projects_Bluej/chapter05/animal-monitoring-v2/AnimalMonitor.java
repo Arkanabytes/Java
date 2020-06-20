@@ -2,13 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * Monitor counts of different types of animal.
- * Sightings are recorded by spotters.
- * 
- * @author David J. Barnes and Michael Kölling
- * @version 2016.03.01 (functional)
- */
+/*Monitor counts of different types of animal. Sightings are recorded by spotters.*/
 public class AnimalMonitor
 {
     private ArrayList<Sighting> sightings;
