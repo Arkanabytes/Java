@@ -8,10 +8,8 @@ public class Automaton
     // The state of the cells.
     private int[] state;
     
-    /**
-     * Create a 1D automaton consisting of the given number of cells.
-     * @param numberOfCells The number of cells in the automaton.
-     */
+    /*Create a 1D automaton consisting of the given number of cells.
+     * @param numberOfCells The number of cells in the automaton.*/
     public Automaton(int numberOfCells)
     {
         this.numberOfCells = numberOfCells;
