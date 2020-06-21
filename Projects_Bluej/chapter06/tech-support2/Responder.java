@@ -31,8 +31,7 @@ public class Responder
 
     /**
      * Build up a list of default responses from which we can pick one
-     * if we don't know what else to say.
-     */
+     * if we don't know what else to say.*/
     private void fillResponses()
     {
         responses.add("That sounds odd. Could you describe this in more detail?");
