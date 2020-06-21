@@ -45,9 +45,7 @@ public class Automaton
         state = nextState;
     }
     
-    /**
-     * Reset the automaton.
-     */
+    /*Reset the automaton.*/
     public void reset()
     {
         Arrays.fill(state, 0);
