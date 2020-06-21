@@ -27,9 +27,7 @@ public class Automaton
         System.out.println();
     }   
     
-    /**
-     * Update the automaton to its next state.
-     */
+    /*Update the automaton to its next state.*/
     public void update()
     {
         // Build the new state in a separate array.
