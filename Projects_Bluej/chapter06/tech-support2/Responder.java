@@ -10,9 +10,7 @@ public class Responder
     private Random randomGenerator;
     private ArrayList<String> responses;
 
-    /**
-     * Construct a Responder
-     */
+    /*Construct a Responder*/
     public Responder()
     {
         randomGenerator = new Random();
