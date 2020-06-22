@@ -12,14 +12,12 @@ public class Sighting
     // The reporting period.
     private final int period;
     
-    /**
-     * Create a record of a sighting of a particular type of animal.
+    /*Create a record of a sighting of a particular type of animal.
      * @param animal The animal spotted.
      * @param spotter The ID of the spotter.
      * @param count How many were seen (>= 0).
      * @param area The ID of the area in which they were seen.
-     * @param period The reporting period.
-     */
+     * @param period The reporting period.*/
     public Sighting(String animal, int spotter, int count, int area, int period)
     {
         this.animal = animal;
