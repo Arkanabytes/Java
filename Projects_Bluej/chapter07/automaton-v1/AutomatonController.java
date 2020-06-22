@@ -28,9 +28,7 @@ public class AutomatonController
         }
     }
     
-    /**
-     * Run the automaton for a single step.
-     */
+    /*Run the automaton for a single step.*/
     public void step()
     {
         auto.update();
