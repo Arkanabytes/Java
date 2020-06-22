@@ -65,10 +65,7 @@ public class Sighting
         return area;
     }
 
-    /**
-     * Return the period in which they were seen.
-     * @return When they were seen.
-     */
+    /*Return the period in which they were seen. @return When they were seen.*/
     public int getPeriod() 
     {
         return period;
