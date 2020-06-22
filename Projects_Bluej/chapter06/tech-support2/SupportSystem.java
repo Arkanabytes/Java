@@ -1,9 +1,7 @@
-/*This class implements a technical support system. It is the top level class 
- * in this project. The support system communicates via text input/output 
+/*This class implements a technical support system. It is the top level class in this project. The support system communicates via text input/output 
  * in the text terminal.
- * This class uses an object of class InputReader to read input from the user,
- * and an object of class Responder to generate responses. It contains a loop
- * that repeatedly reads input and generates output until the users wants to leave. */
+ * This class uses an object of class InputReader to read input from the user,and an object of class Responder to generate responses. 
+ * It contains a loop that repeatedly reads input and generates output until the users wants to leave. */
 public class SupportSystem
 {
     private InputReader reader;
