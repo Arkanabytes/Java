@@ -42,7 +42,6 @@ public class Automaton
         }
         state = nextState;
     }
-    
     /*Reset the automaton.*/
     public void reset()
     {
