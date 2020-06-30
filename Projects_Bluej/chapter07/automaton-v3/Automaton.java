@@ -46,9 +46,7 @@ public class Automaton
         state = nextState;
     }
     
-    /**
-     * Reset the automaton.
-     */
+    /*Reset the automaton.*/
     public void reset()
     {
         Arrays.fill(state, 0);
@@ -56,8 +54,7 @@ public class Automaton
         state[numberOfCells / 2] = 1;
     }
 
-    /**
-     * Calculate the next state of the center cell
+    /*Calculate the next state of the center cell
      * given current left, center and right cell
      * values.
      * This implements Wolfram code 110.
