@@ -62,8 +62,7 @@ public class Automaton
      * @param left The state of the cell to the left of center.
      * @param center The state of the center cell.
      * @param right The state of the cell to the right of center.
-     * @return The new value of center (0 or 1).
-     */
+     * @return The new value of center (0 or 1).*/
     private int calculateNextState(int left, int center, int right)
     {
         return (center + right + center * right + left * center * right) % 2;
