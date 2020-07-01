@@ -1,5 +1,4 @@
 import java.util.*;
-
 /*Model a 1D elementary cellular automaton.*/
 public class Automaton
 {
@@ -65,5 +64,4 @@ public class Automaton
     {
         return (center + right + center * right + left * center * right) % 2;
     }
-
 }
