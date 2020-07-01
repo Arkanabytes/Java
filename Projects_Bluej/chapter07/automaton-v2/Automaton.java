@@ -30,7 +30,7 @@ public class Automaton
     {
         // Build the new state in a separate array.
         int[] nextState = new int[state.length];
-        
+   
         int left = 0;
         int center = state[0];
         for(int i = 0; i < state.length; i++) {
@@ -48,6 +48,5 @@ public class Automaton
         Arrays.fill(state, 0);
         // Seed the automaton with a single 'on' cell.
         state[numberOfCells / 2] = 1;
-            
     }
 }
