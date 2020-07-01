@@ -41,9 +41,7 @@ public class AutomatonController
         auto.print();
     }
     
-    /**
-     * Reset the automaton.
-     */
+    /*Reset the automaton.*/
     public void reset()
     {
         auto.reset();
