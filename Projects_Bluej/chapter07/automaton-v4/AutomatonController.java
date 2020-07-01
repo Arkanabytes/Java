@@ -12,10 +12,7 @@ public class AutomatonController
         auto.print();
     }
     
-    /**
-     * Create an AutomatonController with
-     * a default number of cells.
-     */
+    /*Create an AutomatonController with a default number of cells.*/
     public AutomatonController()
     {
         this(50);
