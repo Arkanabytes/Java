@@ -1,10 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Esta es una peque�a aplicaci�n para realizar ventas de productos de la tiendita 
- * 
- * @author /*Arkanabytes-Alejandra Pinto*/
- */
+ * Esta es para realizar ventas de productos de la tiendita  @author /*Arkanabytes-Alejandra Pinto*/
 
 
 public class Principal{
