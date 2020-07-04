@@ -3,15 +3,10 @@
  * and open the template in the editor.*/
 package ejemploconversiones;
 
-/**
- *
- * @author Arkanabytes
- */
+/*@author Arkanabytes*/
 public class EjemploConversiones {
 
-    /**
-     * @param args the command line arguments
-     */
+    /*@param args the command line arguments*/
     public static void main(String[] args) {
         
         int a =5;
