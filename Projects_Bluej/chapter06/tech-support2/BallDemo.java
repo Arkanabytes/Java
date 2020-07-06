@@ -16,7 +16,6 @@ public class BallDemo
     public void bounce()
     {
         int ground = 400;   // position of the ground line
-
         myCanvas.setVisible(true);
 
         // draw the ground
