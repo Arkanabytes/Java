@@ -1,5 +1,6 @@
 /*Arkanabytes*/
 import java.util.Arrays;
+
 /*Model a 1D elementary cellular automaton.*/
 public class Automaton
 {
