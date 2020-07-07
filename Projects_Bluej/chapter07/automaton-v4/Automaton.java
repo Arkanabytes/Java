@@ -1,11 +1,7 @@
 import java.util.*;
 
 /**
- * Model a 1D elementary cellular automaton.
- * 
- * @author David J. Barnes and Michael Kölling
- * @version  2016.02.29 - version 4
- */
+ * Model a 1D elementary cellular automaton.*/
 public class Automaton
 {
     // The number of cells.
