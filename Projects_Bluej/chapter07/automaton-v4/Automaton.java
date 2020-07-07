@@ -24,9 +24,7 @@ public class Automaton
         state[numberOfCells / 2] = 1;
     }
     
-    /**
-     * Print the current state of the automaton.
-     */
+    /*Print the current state of the automaton.*/
     public void print()
     {
         for(int cellValue : state) {
