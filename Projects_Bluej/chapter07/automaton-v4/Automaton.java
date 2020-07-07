@@ -11,10 +11,7 @@ public class Automaton
     // The state table encoding the next-state changes.
     private int[] stateTable;
     
-    /**
-     * Create a 1D automaton consisting of the given number of cells.
-     * @param numberOfCells The number of cells in the automaton.
-     */
+    /*Create a 1D automaton consisting of the given number of cells. @param numberOfCells The number of cells in the automaton.*/
     public Automaton(int numberOfCells)
     {
         this.numberOfCells = numberOfCells;
