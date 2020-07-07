@@ -60,12 +60,11 @@ public class Automaton
     }
 
     /*Calculate the next state of the center cell given current left, center and right cell values. This implements Wolfram code 110.*/
-     * @see https://en.wikipedia.org/wiki/Wolfram_code
+    /* @see https://en.wikipedia.org/wiki/Wolfram_code
      * @param left The state of the cell to the left of center.
      * @param center The state of the center cell.
      * @param right The state of the cell to the right of center.
-     * @return The new value of center (0 or 1).
-     */
+     * @return The new value of center (0 or 1).*/
     private int calculateNextState(int left, int center, int right)
     {
         return stateTable[encodeTriplet(left, center, right)];
