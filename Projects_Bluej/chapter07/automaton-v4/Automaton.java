@@ -81,8 +81,7 @@ public class Automaton
      * @param left The state of the cell to the left of center (0 or 1).
      * @param center The state of the center cell (0 or 1).
      * @param right The state of the cell to the right of center (0 or 1).
-     * @return (left,center,right) interpreted as a 3-bit value.
-     */
+     * @return (left,center,right) interpreted as a 3-bit value. */
     private int encodeTriplet(int left, int center, int right)
     {
         return left * 4 + center * 2 + right;
