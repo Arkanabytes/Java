@@ -77,9 +77,7 @@ public class Automaton
         return stateTable[encodeTriplet(left, center, right)];
     }
     
-    /**
-     * Encode the 1/0 triplet (left, center, right) as an
-     * integer value in the range 0-7.
+    /*Encode the 1/0 triplet (left, center, right) as an integer value in the range 0-7.
      * @param left The state of the cell to the left of center (0 or 1).
      * @param center The state of the center cell (0 or 1).
      * @param right The state of the cell to the right of center (0 or 1).
