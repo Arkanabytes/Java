@@ -1,4 +1,5 @@
 /*Arkanabytes*/
+
 import java.util.*;
 
 /*Model a 1D elementary cellular automaton.*/
