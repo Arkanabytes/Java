@@ -4,10 +4,7 @@ public class AutomatonController
     // The automaton.
     private Automaton auto;
     
-    /**
-     * Create an AutomatonController.
-     * @param numberOfCells The number of cells in the automaton.
-     */
+    /*Create an AutomatonController. @param numberOfCells The number of cells in the automaton.*/
     public AutomatonController(int numberOfCells)
     {
         auto = new Automaton(numberOfCells);
