@@ -1,5 +1,4 @@
-/**
- * Set up and control an elementary cellular automaton.*/
+/*Set up and control an elementary cellular automaton.*/
 public class AutomatonController
 {
     // The automaton.
