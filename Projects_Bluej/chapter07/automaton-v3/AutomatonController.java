@@ -17,10 +17,7 @@ public class AutomatonController
         this(50);
     }
     
-    /**
-     * Run the automaton for the given number of steps.
-     * @param numSteps The number of steps.
-     */
+    /*Run the automaton for the given number of steps. @param numSteps The number of steps.*/
     public void run(int numSteps)
     {
         for(int step = 1; step <= numSteps; step++) {
