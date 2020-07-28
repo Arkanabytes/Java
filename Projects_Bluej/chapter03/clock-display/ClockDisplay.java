@@ -5,10 +5,7 @@
  * 
  * The clock display receives "ticks" (via the timeTick method) every minute
  * and reacts by incrementing the display. This is done in the usual clock
- * fashion: the hour increments when the minutes roll over to zero.
- * 
- * @author Consuelo Pinto
- * @version 2017*/
+ * fashion: the hour increments when the minutes roll over to zero.*/
 
 public class ClockDisplay
 {
