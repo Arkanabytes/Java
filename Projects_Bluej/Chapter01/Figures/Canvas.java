@@ -40,8 +40,7 @@ public class Canvas
      * @param title    title to appear in Canvas Frame
      * @param width    the desired width for the canvas
      * @param height   the desired height for the canvas
-     * @param bgColor the desired background color of the canvas
-     */
+     * @param bgColor the desired background color of the canvas*/
     private Canvas(String title, int width, int height, Color bgColor)
     {
         frame = new JFrame();
