@@ -36,8 +36,7 @@ public class Canvas
     private List<Object> objects;
     private HashMap<Object, ShapeDescription> shapes;
     
-    /**
-     * Create a Canvas.
+    /*Create a Canvas.
      * @param title    title to appear in Canvas Frame
      * @param width    the desired width for the canvas
      * @param height   the desired height for the canvas
