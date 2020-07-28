@@ -61,8 +61,7 @@ public class Canvas
      * when made visible. This method can also be used to bring an already
      * visible canvas to the front of other windows.
      * @param visible  boolean value representing the desired visibility of
-     * the canvas (true or false) 
-     */
+     * the canvas (true or false)*/
     public void setVisible(boolean visible)
     {
         if(graphic == null) {
