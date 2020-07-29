@@ -47,8 +47,7 @@ public class Student
         return credits;
     }
 
-    /* Return the login name of this student. The login name is a combination
-     * of the first four characters of the student's name and the first three
+    /* Return the login name of this student. The login name is a combination of the first four characters of the student's name and the first three
      * characters of the student's ID number.*/
     public String getLoginName()
     {
