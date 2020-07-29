@@ -65,10 +65,7 @@ public class Canvas
         frame.setVisible(true);
     }
 
-    /**
-     * Provide information on visibility of the Canvas.
-     * @return  true if canvas is visible, false otherwise
-     */
+    /*Provide information on visibility of the Canvas. @return  true if canvas is visible, false otherwise */
     public boolean isVisible()
     {
         return frame.isVisible();
