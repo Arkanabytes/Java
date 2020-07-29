@@ -2,15 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.*;
 
-/**
- * Class Canvas - a class to allow for simple graphical 
- * drawing on a canvas.
- * 
- * @author Michael Kölling (mik)
- * @author Bruce Quig
- *
- * @version 2016.02.29
- */
+/*Class Canvas - a class to allow for simple graphical 
+ * drawing on a canvas.*/
 
 public class Canvas
 {
