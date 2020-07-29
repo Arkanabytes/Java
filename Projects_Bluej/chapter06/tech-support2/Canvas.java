@@ -12,11 +12,7 @@ public class Canvas
     private Color backgroundColor;
     private Image canvasImage;
 
-    /**
-     * Create a Canvas with default height, width and background color 
-     * (300, 300, white).
-     * @param title  title to appear in Canvas Frame     
-     */
+    /*Create a Canvas with default height, width and background color (300, 300, white). @param title  title to appear in Canvas Frame */
     public Canvas(String title)
     {
         this(title, 300, 300, Color.white);
