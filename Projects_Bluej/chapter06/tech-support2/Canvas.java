@@ -2,8 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.*;
 
-/*Class Canvas - a class to allow for simple graphical 
- * drawing on a canvas.*/
+/*Class Canvas - a class to allow for simple graphical drawing on a canvas.*/
 
 public class Canvas
 {
