@@ -28,13 +28,12 @@ public class Canvas
         this(title, width, height, Color.white);
     }
 
-    /**
-     * Create a Canvas.
+    /*Create a Canvas.
      * @param title  title to appear in Canvas Frame
      * @param width  the desired width for the canvas
      * @param height  the desired height for the canvas
-     * @param bgClour  the desired background color of the canvas
-     */
+     * @param bgClour  the desired background color of the canvas*/
+    
     public Canvas(String title, int width, int height, Color bgColor)
     {
         frame = new JFrame();
