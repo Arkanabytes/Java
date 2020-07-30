@@ -13,8 +13,8 @@ public class InputReader
     }
 
     /*Read a line of text from standard input (the text terminal), and return it as a set of words.*
-     * @return  A set of Strings, where each String is one of the 
-     *          words typed by the user*/
+     * @return  A set of Strings, where each String is one of the words typed by the user*/
+    
     public HashSet<String> getInput() 
     {
         System.out.print("> ");                // print prompt
