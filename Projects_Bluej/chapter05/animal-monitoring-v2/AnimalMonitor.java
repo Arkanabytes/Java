@@ -22,9 +22,7 @@ public class AnimalMonitor
         sightings.addAll(reader.getSightings(filename));
     }
     
-    /**
-     * Print details of all the sightings.
-     */
+    /*Print details of all the sightings.*/
     public void printList()
     {
         sightings.forEach(sighting -> System.out.println(sighting.getDetails()));
