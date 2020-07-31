@@ -88,13 +88,10 @@ public class AnimalMonitor
         }
     }
     
-    /**
-     * Return a list of all sightings of the given type of animal
-     * in a particular area.
+    /*Return a list of all sightings of the given type of animal in a particular area.
      * @param animal The type of animal.
      * @param area The ID of the area.
-     * @return A list of sightings.
-     */
+     * @return A list of sightings.*/
     public ArrayList<Sighting> getSightingsInArea(String animal, int area)
     {
         ArrayList<Sighting> records = new ArrayList<>();
