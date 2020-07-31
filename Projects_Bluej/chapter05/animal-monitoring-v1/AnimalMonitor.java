@@ -29,8 +29,7 @@ public class AnimalMonitor
         }
     }
     
-    /**
-     * Print the details of all the sightings of the given animal.
+    /*Print the details of all the sightings of the given animal.
      * @param animal The type of animal.
      */
     public void printSightingsOf(String animal)
