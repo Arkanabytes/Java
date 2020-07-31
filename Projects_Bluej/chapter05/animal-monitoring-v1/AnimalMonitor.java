@@ -50,12 +50,10 @@ public class AnimalMonitor
         }        
     }
     
-    /**
-     * Print a list of the types of animal considered to be endangered.
+    /*Print a list of the types of animal considered to be endangered.
      * @param animalNames A list of animals names.
      * @param dangerThreshold Counts less-than or equal-to to this level
-     *                        are considered to be dangerous.
-     */
+     *                        are considered to be dangerous.*/
     public void printEndangered(ArrayList<String> animalNames, 
                                 int dangerThreshold)
     {
