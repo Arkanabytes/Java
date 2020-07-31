@@ -17,8 +17,7 @@ public class Responder
         fillResponses();
     }
 
-    /*Generate a response.
-     * @return  A string that should be displayed as the response*/
+    /*Generate a response. @return  A string that should be displayed as the response*/
     public String generateResponse()
     {
         // Pick a random number for the index in the default response 
