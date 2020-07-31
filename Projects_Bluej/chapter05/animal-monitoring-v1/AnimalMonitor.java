@@ -78,10 +78,7 @@ public class AnimalMonitor
         return total;
     }
     
-    /**
-     * Remove from the sightings list all of those records with
-     * a count of zero.
-     */
+    /*Remove from the sightings list all of those records with a count of zero.*/
     public void removeZeroCounts()
     {
         Iterator<Sighting> it = sightings.iterator();
