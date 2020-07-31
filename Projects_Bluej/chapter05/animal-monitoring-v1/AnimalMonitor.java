@@ -7,9 +7,7 @@ public class AnimalMonitor
     // Records of all the sightings of animals.
     private ArrayList<Sighting> sightings;
     
-    /**
-     * Create an AnimalMonitor.
-     */
+    /*Create an AnimalMonitor.*/
     public AnimalMonitor()
     {
         this.sightings = new ArrayList<>();
