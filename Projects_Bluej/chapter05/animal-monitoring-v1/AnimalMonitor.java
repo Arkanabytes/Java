@@ -105,11 +105,8 @@ public class AnimalMonitor
         return records;
     }
     
-    /**
-     * Return a list of all the sightings of the given animal.
-     * @param animal The type of animal.
-     * @return A list of all sightings of the given animal.
-     */
+    /*Return a list of all the sightings of the given animal. @param animal The type of animal.
+     * @return A list of all sightings of the given animal.*/
     public ArrayList<Sighting> getSightingsOf(String animal)
     {
         ArrayList<Sighting> filtered = new ArrayList<>();
