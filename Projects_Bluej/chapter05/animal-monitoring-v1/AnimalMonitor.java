@@ -13,10 +13,8 @@ public class AnimalMonitor
         this.sightings = new ArrayList<>();
     }
     
-    /**
-     * Add the sightings recorded in the given filename to the current list.
-     * @param filename A CSV file of Sighting records.
-     */
+    /*Add the sightings recorded in the given filename to the current list.
+     * @param filename A CSV file of Sighting records.*/
     public void addSightings(String filename)
     {
         SightingReader reader = new SightingReader();
