@@ -60,11 +60,9 @@ public class Auction
         }
     }
 
-    /**
-     * Return the lot with the given number. Return null
+    /*Return the lot with the given number. Return null
      * if a lot with this number does not exist.
-     * @param lotNumber The number of the lot to return.
-     */
+     * @param lotNumber The number of the lot to return.*/
     public Lot getLot(int lotNumber)
     {
         if((lotNumber >= 1) && (lotNumber < nextLotNumber)) {
