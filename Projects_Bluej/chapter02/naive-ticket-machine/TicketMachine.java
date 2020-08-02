@@ -37,9 +37,7 @@ public class TicketMachine
         return balance;
     }
 
-    /**
-     * Receive an amount of money from a customer.
-     */
+    /*Receive an amount of money from a customer.*/
     public void insertMoney(int amount)
     {
         balance = balance + amount;
