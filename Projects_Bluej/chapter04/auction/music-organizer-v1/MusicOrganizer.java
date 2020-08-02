@@ -27,10 +27,8 @@ public class MusicOrganizer
         return files.size();
     }
     
-    /**
-     * List a file from the collection.
-     * @param index The index of the file to be listed.
-     */
+    /*List a file from the collection.
+     * @param index The index of the file to be listed.*/
     public void listFile(int index)
     {
         if(index >= 0 && index < files.size()) {
