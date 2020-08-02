@@ -6,9 +6,7 @@ public class MusicOrganizer
     // An ArrayList for storing the file names of music files.
     private ArrayList<String> files;
         
-    /**
-     * Create a MusicOrganizer
-     */
+    /*Create a MusicOrganizer*/
     public MusicOrganizer()
     {
         files = new ArrayList<>();
