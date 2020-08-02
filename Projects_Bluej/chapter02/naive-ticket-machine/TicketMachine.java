@@ -41,11 +41,7 @@ public class TicketMachine
         balance = balance + amount;
     }
 
-    /**
-     * Print a ticket.
-     * Update the total collected and
-     * reduce the balance to zero.
-     */
+    /*Print a ticket. Update the total collected and reduce the balance to zero.*/
     public void printTicket()
     {
         // Simulate the printing of a ticket.
