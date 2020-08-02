@@ -12,10 +12,7 @@ public class MusicOrganizer
         files = new ArrayList<>();
     }
     
-    /**
-     * Add a file to the collection.
-     * @param filename The file to be added.
-     */
+    /*Add a file to the collection. @param filename The file to be added.*/
     public void addFile(String filename)
     {
         files.add(filename);
