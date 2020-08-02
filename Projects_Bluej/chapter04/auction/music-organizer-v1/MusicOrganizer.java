@@ -18,10 +18,8 @@ public class MusicOrganizer
         files.add(filename);
     }
     
-    /**
-     * Return the number of files in the collection.
-     * @return The number of files in the collection.
-     */
+    /*Return the number of files in the collection.
+     * @return The number of files in the collection.*/
     public int getNumberOfFiles()
     {
         return files.size();
