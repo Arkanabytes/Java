@@ -8,11 +8,9 @@ public class Bid
     // the long type has been used.
     private final long value;
 
-    /**
-     * Create a bid.
+    /*Create a bid.
      * @param bidder Who is bidding for the lot.
-     * @param value The value of the bid.
-     */
+     * @param value The value of the bid.*/
     public Bid(Person bidder, long value)
     {
         this.bidder = bidder;
