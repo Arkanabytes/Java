@@ -17,9 +17,7 @@ public class Bid
         this.value = value;
     }
 
-    /**
-     * @return The bidder.
-     */
+    /*@return The bidder.*/
     public Person getBidder()
     {
         return bidder;
