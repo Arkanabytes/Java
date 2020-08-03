@@ -11,8 +11,7 @@ public class Product
     /*Constructor for objects of class Product.
      * The initial stock quantity is zero.
      * @param id The product's identifying number.
-     * @param name The product's name.
-     */
+     * @param name The product's name.*/
     public Product(int id, String name)
     {
         this.id = id;
