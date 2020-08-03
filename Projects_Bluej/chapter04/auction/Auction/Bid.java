@@ -1,10 +1,5 @@
-/**
- * A class that models an auction bid.
- * It contains a reference to the Person bidding and the amount bid.
- * 
- * @author Consuelo Pinto
- * @version 2016.02.29
- */
+/*A class that models an auction bid.
+ * It contains a reference to the Person bidding and the amount bid.*/
 public class Bid
 {
     // The person making the bid.
