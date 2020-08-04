@@ -17,10 +17,8 @@ public class Auction
         nextLotNumber = 1;
     }
 
-    /**
-     * Enter a new lot into the auction.
-     * @param description A description of the lot.
-     */
+    /*Enter a new lot into the auction.
+     * @param description A description of the lot.*/
     public void enterLot(String description)
     {
         lots.add(new Lot(nextLotNumber, description));
