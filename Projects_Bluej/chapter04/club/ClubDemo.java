@@ -13,8 +13,7 @@ public class ClubDemo
 
     /*Add some members to the club, and then
      * show how many there are.
-     * Further example calls could be added if more functionality
-     * is added to the Club class.*/
+     * Further example calls could be added if more functionality is added to the Club class.*/
     public void demo()
     {
         club.join(new Membership("Arkana", 2, 2002));
