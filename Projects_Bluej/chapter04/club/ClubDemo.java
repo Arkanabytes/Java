@@ -1,11 +1,6 @@
+/*Provide a demonstration of the Club and Membership
+ * classes.*/
 
-/**
- * Provide a demonstration of the Club and Membership
- * classes.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class ClubDemo
 {
     // instance variables - replace the example below with your own
