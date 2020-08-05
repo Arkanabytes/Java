@@ -11,8 +11,7 @@ public class Club
     }
 
     /*Add a new member to the club's list of members.
-     * @param member The member object to be added.
-     */
+     * @param member The member object to be added.*/
     public void join(Membership member)
     {
     }
