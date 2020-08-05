@@ -16,9 +16,7 @@ public class Club
     {
     }
 
-    /*@return The number of members (Membership objects) in
-     *         the club.
-     */
+    /*@return The number of members (Membership objects) in the club.*/
     public int numberOfMembers()
     {
         return 0;
