@@ -1,5 +1,4 @@
-/*Provide a demonstration of the Club and Membership
- * classes.*/
+/*Provide a demonstration of the Club and Membership classes.*/
 
 public class ClubDemo
 {
