@@ -10,8 +10,7 @@ public class Lot
 
     /*Construct a Lot, setting its number and description.
      * @param number The lot number.
-     * @param description A description of this lot.
-     */
+     * @param description A description of this lot.*/
     public Lot(int number, String description)
     {
         this.number = number;
