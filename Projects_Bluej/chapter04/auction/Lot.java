@@ -8,8 +8,7 @@ public class Lot
     // The current highest bid for this lot.
     private Bid highestBid;
 
-    /**
-     * Construct a Lot, setting its number and description.
+    /*Construct a Lot, setting its number and description.
      * @param number The lot number.
      * @param description A description of this lot.
      */
