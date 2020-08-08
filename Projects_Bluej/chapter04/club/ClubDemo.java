@@ -11,8 +11,7 @@ public class ClubDemo
         club = new Club();
     }
 
-    /*Add some members to the club, and then
-     * show how many there are.
+    /*Add some members to the club, and then show how many there are.
      * Further example calls could be added if more functionality is added to the Club class.*/
     public void demo()
     {
