@@ -32,10 +32,8 @@ public class Auction
         }
     }
     
-    /*Make a bid for a lot.
-     * A message is printed indicating whether the bid is successful or not.
-     * 
-     * @param lotNumber The lot being bid for.
+    /*Make a bid for a lot. A message is printed indicating whether the bid is successful or not.*/ 
+     /* @param lotNumber The lot being bid for.
      * @param bidder The person bidding for the lot.
      * @param value  The value of the bid.*/
     public void makeABid(int lotNumber, Person bidder, long value)
