@@ -19,12 +19,9 @@ public class Lot
         this.highestBid = null;
     }
 
-    /**
-     * Attempt to bid for this lot. A successful bid
-     * must have a value higher than any existing bid.
+    /*Attempt to bid for this lot. A successful bid must have a value higher than any existing bid.
      * @param bid A new bid.
-     * @return true if successful, false otherwise
-     */
+     * @return true if successful, false otherwise*/
     public boolean bidFor(Bid bid)
     {
         if(highestBid == null) {
