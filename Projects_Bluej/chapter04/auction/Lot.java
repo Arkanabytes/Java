@@ -59,9 +59,7 @@ public class Lot
         return details;
     }
 
-    /**
-     * @return The lot's number.
-     */
+    /*@return The lot's number.*/
     public int getNumber()
     {
         return number;
