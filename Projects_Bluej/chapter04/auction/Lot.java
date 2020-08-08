@@ -39,9 +39,7 @@ public class Lot
         }
     }
     
-    /**
-     * @return A string representation of this lot's details.
-     */
+    /*@return A string representation of this lot's details.*/
     public String toString()
     {
         String details = number + ": " + description;
