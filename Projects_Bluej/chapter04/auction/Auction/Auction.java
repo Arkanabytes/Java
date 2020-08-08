@@ -33,8 +33,7 @@ public class Auction
     }
     
     /*Make a bid for a lot.
-     * A message is printed indicating whether the bid is
-     * successful or not.
+     * A message is printed indicating whether the bid is successful or not.
      * 
      * @param lotNumber The lot being bid for.
      * @param bidder The person bidding for the lot.
