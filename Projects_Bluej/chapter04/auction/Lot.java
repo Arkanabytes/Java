@@ -59,9 +59,7 @@ public class Lot
         return number;
     }
 
-    /**
-     * @return The lot's description.
-     */
+    /*@return The lot's description.*/
     public String getDescription()
     {
         return description;
