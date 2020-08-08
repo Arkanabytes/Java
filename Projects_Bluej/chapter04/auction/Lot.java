@@ -1,10 +1,4 @@
-/**
- * A class to model an item (or set of items) in an
- * auction: a lot.
- * 
- * @author Consuelo Pinto
- * @version 2016.01.26
- */
+/*A class to model an item (or set of items) in an auction: a lot. */
 public class Lot
 {
     // A unique identifying number.
