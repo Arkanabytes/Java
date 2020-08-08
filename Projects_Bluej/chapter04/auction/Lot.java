@@ -65,11 +65,9 @@ public class Lot
         return description;
     }
 
-    /**
-     * @return The highest bid for this lot.
+    /*@return The highest bid for this lot.
      *         This could be null if there is
-     *         no current bid.
-     */
+     *         no current bid.*/
     public Bid getHighestBid()
     {
         return highestBid;
