@@ -1,9 +1,7 @@
 import java.lang.*;
 import java.util.Scanner;
 
-	/*
-	 * @author: Consuelo alejandra Pinto Toro
-	 * Date:            */
+	/*@author: Consuelo alejandra Pinto Toro*/
 	
        public abstract class Electrodomestico
 	{
