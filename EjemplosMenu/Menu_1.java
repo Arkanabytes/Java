@@ -1,7 +1,7 @@
 /*Arkanabytes*/
 import java.util.Scanner;
-/*Esta es para realizar ventas de productos de la tiendita*/
 
+/*Esta es para realizar ventas de productos de la tiendita*/
 public class Principal{
 		
 		public static void main(String [] args){
