@@ -10,12 +10,10 @@ public class Membership
     // The year in which the membership was taken out.
     private int year;
 
-    /**
-     * Constructor for objects of class Membership.
+    /*Constructor for objects of class Membership.
      * @param name The name of the member.
      * @param month The month in which they joined. (1 ... 12)
-     * @param year The year in which they joined.
-     */
+     * @param year The year in which they joined. */
     public Membership(String name, int month, int year)
         throws IllegalArgumentException
     {
