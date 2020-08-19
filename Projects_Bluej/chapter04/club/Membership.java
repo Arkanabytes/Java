@@ -26,9 +26,7 @@ public class Membership
         this.year = year;
     }
     
-    /**
-     * @return The member's name.
-     */
+    /*@return The member's name.*/
     public String getName()
     {
         return name;
@@ -51,9 +49,7 @@ public class Membership
         return year;
     }
 
-    /**
-     * @return A string representation of this membership.
-     */
+    /*@return A string representation of this membership.*/
     public String toString()
     {
         return "Name: " + name +
