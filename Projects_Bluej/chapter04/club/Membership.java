@@ -41,9 +41,7 @@ public class Membership
         return month;
     }
 
-    /**
-     * @return The year in which the member joined.
-     */
+    /*@return The year in which the member joined.*/
     public int getYear()
     {
         return year;
