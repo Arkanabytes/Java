@@ -32,10 +32,7 @@ public class Membership
         return name;
     }
     
-    /**
-     * @return The month in which the member joined.
-     *         A value in the range 1 ... 12
-     */
+    /*@return The month in which the member joined. A value in the range 1 ... 12*/
     public int getMonth()
     {
         return month;
