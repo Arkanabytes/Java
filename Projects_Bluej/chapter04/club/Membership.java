@@ -1,9 +1,6 @@
-/**
- * Store details of a club membership.
- * 
+/*Store details of a club membership. 
  * @author Consuelo Pinto
- * @version 2016.01.15
- */
+ * @version 2016.01.15*/
 public class Membership
 {
     // The name of the member.
