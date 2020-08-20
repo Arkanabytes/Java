@@ -64,6 +64,5 @@ public class SightingReader
             sightings = new ArrayList<>();
         }
         return sightings;
-    }
-    
+    } 
 }
