@@ -18,9 +18,7 @@ public class SightingReader
                              AREA = 3,
                              PERIOD = 4;
     
-    /**
-     * Create a SightingReader.
-     */
+    /*Create a SightingReader.*/
     public SightingReader()
     {
     }
