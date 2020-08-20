@@ -23,14 +23,10 @@ public class SightingReader
     {
     }
     
-    /**
-     * Read sightings in CSV format from the given file.
-     * Return an ArrayList of Sighting objects created from
-     * the information in the file.
+    /*Read sightings in CSV format from the given file. Return an ArrayList of Sighting objects created from the information in the file.
      * 
      * @param filename The file to be read - should be in CSV format.
-     * @return A list of Sightings.
-     */
+     * @return A list of Sightings.*/
     public ArrayList<Sighting> getSightings(String filename)
     {
         // Create a Sighting from a CSV input line.
