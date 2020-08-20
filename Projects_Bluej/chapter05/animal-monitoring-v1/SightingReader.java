@@ -6,12 +6,7 @@ import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-/**
- * A class to read CSV-style records of animal sighting reports.
- * 
- * @author David J. Barnes and Michael Kölling
- * @version 2016.02.29
- */
+/*A class to read CSV-style records of animal sighting reports.*/
 public class SightingReader
 {
     // How many fields are expected.
