@@ -49,10 +49,8 @@ public class Sighting
         return count;
     }
 
-    /**
-     * Return the ID of the area in which they were seen.
-     * @return Where they were seen.
-     */
+    /*Return the ID of the area in which they were seen.
+     * @return Where they were seen.*/
     public int getArea() 
     {
         return area;
