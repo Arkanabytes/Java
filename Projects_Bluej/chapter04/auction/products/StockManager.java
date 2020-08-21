@@ -1,3 +1,4 @@
+/*Arkanabytes*/
 import java.util.ArrayList;
 
 /*Manage the stock in a business.
