@@ -27,15 +27,12 @@ public class StockManager
     }
     
     /*Try to find a product in the stock with the given id.
-     * @return The identified product, or null if there is none
-     *         with a matching ID.*/
+     * @return The identified product, or null if there is none with a matching ID.*/
     public Product findProduct(int id)
     {
         return null;
     }
-    /*Locate a product with the given ID, and return how
-     * many of this item are in stock. If the ID does not
-     * match any product, return zero.
+    /*Locate a product with the given ID, and return how many of this item are in stock. If the ID does not match any product, return zero.
      * @param id The ID of the product.
      * @return The quantity of the given product in stock.*/
     public int numberInStock(int id)
