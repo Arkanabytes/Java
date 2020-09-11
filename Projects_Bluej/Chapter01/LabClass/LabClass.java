@@ -2,8 +2,7 @@
 
 import java.util.*;
 
-/*The LabClass class represents an enrolment list for one lab class. It stores
- * the time, room and participants of the lab, as well as the instructor's name.*/
+/*The LabClass class represents an enrolment list for one lab class. It stores the time, room and participants of the lab, as well as the instructor's name.*/
 
 public class LabClass
 {
