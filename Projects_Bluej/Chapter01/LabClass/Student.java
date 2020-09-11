@@ -1,3 +1,5 @@
+/*Arkanabytes*/
+
 /*The Student class represents a student in a student administration system. It holds the student details relevant in our context.*/
 
 public class Student
