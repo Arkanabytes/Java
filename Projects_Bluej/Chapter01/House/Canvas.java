@@ -3,10 +3,7 @@ import java.awt.*;
 import java.util.List;
 import java.util.*;
 
-/**
- * Canvas is a class to allow for simple graphical drawing on a canvas.
- * This is a modification of the general purpose Canvas, specially made for
- * the BlueJ "shapes" example. */
+/*Canvas is a class to allow for simple graphical drawing on a canvas. This is a modification of the general purpose Canvas, specially made for the BlueJ "shapes" example. */
 public class Canvas
 {
     // Note: The implementation of this class (specifically the handling of
@@ -38,7 +35,7 @@ public class Canvas
     private HashMap<Object, ShapeDescription> shapes;
     
     /**
-     * Create a Canvas.
+      Create a Canvas.
      * @param title    title to appear in Canvas Frame
      * @param width    the desired width for the canvas
      * @param height   the desired height for the canvas
