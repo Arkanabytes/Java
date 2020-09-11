@@ -1,3 +1,4 @@
+/*Arkanabytes*/
 import java.awt.*;
 
 /*A triangle that can be manipulated and that draws itself on a canvas.*/
