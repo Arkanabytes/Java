@@ -34,13 +34,12 @@ public class Canvas
     private List<Object> objects;
     private HashMap<Object, ShapeDescription> shapes;
     
-    /**
-      Create a Canvas.
+    /*Create a Canvas.
      * @param title    title to appear in Canvas Frame
      * @param width    the desired width for the canvas
      * @param height   the desired height for the canvas
-     * @param bgColor the desired background color of the canvas
-     */
+     * @param bgColor the desired background color of the canvas */
+    
     private Canvas(String title, int width, int height, Color bgColor)
     {
         frame = new JFrame();
@@ -55,8 +54,7 @@ public class Canvas
         shapes = new HashMap<Object, ShapeDescription>();
     }
 
-    /**
-     * Set the canvas visibility and brings canvas to the front of screen
+    /*Set the canvas visibility and brings canvas to the front of screen
      * when made visible. This method can also be used to bring an already
      * visible canvas to the front of other windows.
      * @param visible  boolean value representing the desired visibility of
