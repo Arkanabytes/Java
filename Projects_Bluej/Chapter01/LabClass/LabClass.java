@@ -1,3 +1,4 @@
+/*Arkanbytes*/
 import java.util.*;
 
 /*The LabClass class represents an enrolment list for one lab class. It stores
