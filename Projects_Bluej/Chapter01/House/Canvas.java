@@ -54,12 +54,9 @@ public class Canvas
         shapes = new HashMap<Object, ShapeDescription>();
     }
 
-    /*Set the canvas visibility and brings canvas to the front of screen
-     * when made visible. This method can also be used to bring an already
-     * visible canvas to the front of other windows.
-     * @param visible  boolean value representing the desired visibility of
-     * the canvas (true or false) 
-     */
+    /*Set the canvas visibility and brings canvas to the front of screen when made visible. This method can also be used to bring an already visible canvas to the front of other windows.
+     * @param visible  boolean value representing the desired visibility of the canvas (true or false)*/
+    
     public void setVisible(boolean visible)
     {
         if(graphic == null) {
