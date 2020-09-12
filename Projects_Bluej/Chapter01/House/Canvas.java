@@ -97,10 +97,8 @@ public class Canvas
         redraw();
     }
 
-    /**
-     * Set the foreground color of the Canvas.
-     * @param  newColor   the new color for the foreground of the Canvas 
-     */
+    /*Set the foreground color of the Canvas.
+     * @param  newColor   the new color for the foreground of the Canvas */
     public void setForegroundColor(String colorString)
     {
         if(colorString.equals("red")) {
