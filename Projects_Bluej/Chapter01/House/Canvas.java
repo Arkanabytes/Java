@@ -89,8 +89,7 @@ public class Canvas
     }
  
     /*Erase a given shape's from the screen.
-     * @param  referenceObject  the shape object to be erased 
-     */
+     * @param  referenceObject  the shape object to be erased*/
     public void erase(Object referenceObject)
     {
         objects.remove(referenceObject);   // just in case it was already there
