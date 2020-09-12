@@ -179,8 +179,7 @@ public class Canvas
     /************************************************************************
      * Inner class CanvasPane - the actual canvas component contained in the
      * Canvas frame. This is essentially a JPanel with added capability to
-     * refresh the image drawn on it.
-     */
+     * refresh the image drawn on it.*/
     private class ShapeDescription
     {
         private Shape shape;
