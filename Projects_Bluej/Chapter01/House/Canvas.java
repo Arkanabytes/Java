@@ -72,8 +72,7 @@ public class Canvas
         frame.setVisible(visible);
     }
 
-    /**
-     * Draw a given shape onto the canvas.
+    /*Draw a given shape onto the canvas.
      * @param  referenceObject  an object to define identity for this shape
      * @param  color            the color of the shape
      * @param  shape            the shape object to be drawn on the canvas
