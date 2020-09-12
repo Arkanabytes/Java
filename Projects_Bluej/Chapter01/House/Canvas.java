@@ -75,11 +75,11 @@ public class Canvas
     /*Draw a given shape onto the canvas.
      * @param  referenceObject  an object to define identity for this shape
      * @param  color            the color of the shape
-     * @param  shape            the shape object to be drawn on the canvas
-     */
+     * @param  shape            the shape object to be drawn on the canvas */
      // Note: this is a slightly backwards way of maintaining the shape
      // objects. It is carefully designed to keep the visible shape interfaces
      // in this project clean and simple for educational purposes.
+    
     public void draw(Object referenceObject, String color, Shape shape)
     {
         objects.remove(referenceObject);   // just in case it was already there
