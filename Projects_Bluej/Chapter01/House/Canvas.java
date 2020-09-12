@@ -88,8 +88,7 @@ public class Canvas
         redraw();
     }
  
-    /**
-     * Erase a given shape's from the screen.
+    /*Erase a given shape's from the screen.
      * @param  referenceObject  the shape object to be erased 
      */
     public void erase(Object referenceObject)
