@@ -131,8 +131,7 @@ public class Canvas
         }
     }
 
-    /**
-     * Wait for a specified number of milliseconds before finishing.
+    /*Wait for a specified number of milliseconds before finishing.
      * This provides an easy way to specify a small delay which can be
      * used when producing animations.
      * @param  milliseconds  the number 
