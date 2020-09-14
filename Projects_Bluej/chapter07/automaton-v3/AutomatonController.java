@@ -1,3 +1,4 @@
+/*Arkana*/
 /*Set up and control an elementary cellular automaton.*/
 public class AutomatonController
 {
