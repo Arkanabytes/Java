@@ -53,8 +53,7 @@ public class Automaton
         state[numberOfCells / 2] = 1;
     }
 
-    /*Calculate the next state of the center cell given current left, center and right cell values.
-     * This implements Wolfram code 110.
+    /*Calculate the next state of the center cell given current left, center and right cell values. This implements Wolfram code 110.
      * @see https://en.wikipedia.org/wiki/Wolfram_code
      * @param left The state of the cell to the left of center.
      * @param center The state of the center cell.
