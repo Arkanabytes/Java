@@ -293,10 +293,8 @@ public class Canvas
         frame.pack();
     }
 
-    /**
-     * Returns the size of the canvas.
-     * @return     The current dimension of the canvas
-     */
+    /*Returns the size of the canvas.
+     * @return     The current dimension of the canvas*/
     public Dimension getSize()
     {
         return canvas.getSize();
