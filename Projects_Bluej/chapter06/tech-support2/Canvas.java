@@ -308,12 +308,10 @@ public class Canvas
         return canvas.getSize();
     }
 
-    /**
-     * Waits for a specified number of milliseconds before finishing.
+    /*Waits for a specified number of milliseconds before finishing.
      * This provides an easy way to specify a small delay which can be
      * used when producing animations.
-     * @param  milliseconds  the number 
-     */
+     * @param  milliseconds  the number*/
     public void wait(int milliseconds)
     {
         try
