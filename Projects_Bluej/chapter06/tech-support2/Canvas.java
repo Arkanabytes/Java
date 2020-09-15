@@ -112,9 +112,7 @@ public class Canvas
         fill(new Rectangle(xPos, yPos, width, height));
     }
 
-    /**
-     * Erase the whole canvas.
-     */
+    /*Erase the whole canvas.*/
     public void erase()
     {
         Color original = graphic.getColor();
