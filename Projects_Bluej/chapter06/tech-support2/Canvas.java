@@ -70,10 +70,8 @@ public class Canvas
         return frame.isVisible();
     }
 
-    /**
-     * Draw the outline of a given shape onto the canvas.
-     * @param  shape  the shape object to be drawn on the canvas
-     */
+    /*Draw the outline of a given shape onto the canvas.
+     * @param  shape  the shape object to be drawn on the canvas*/
     public void draw(Shape shape)
     {
         graphic.draw(shape);
