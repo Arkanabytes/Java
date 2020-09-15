@@ -78,11 +78,8 @@ public class Canvas
         canvas.repaint();
     }
  
-    /**
-     * Fill the internal dimensions of a given shape with the current 
-     * foreground color of the canvas.
-     * @param  shape  the shape object to be filled 
-     */
+    /*Fill the internal dimensions of a given shape with the current foreground color of the canvas.
+     * @param  shape  the shape object to be filled*/
     public void fill(Shape shape)
     {
         graphic.fill(shape);
