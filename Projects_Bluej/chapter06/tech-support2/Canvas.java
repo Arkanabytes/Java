@@ -136,11 +136,9 @@ public class Canvas
         erase(circle);
     }
 
-    /**
-     * Erase the internal dimensions of the given rectangle. This is a 
+    /*Erase the internal dimensions of the given rectangle. This is a 
      * convenience method. A similar effect can be achieved with
-     * the "erase" method.
-     */
+     * the "erase" method.*/
     public void eraseRectangle(int xPos, int yPos, int width, int height)
     {
         erase(new Rectangle(xPos, yPos, width, height));
@@ -159,10 +157,8 @@ public class Canvas
         canvas.repaint();
     }
 
-    /**
-     * Erases a given shape's outline on the screen.
-     * @param  shape  the shape object to be erased 
-     */
+    /*Erases a given shape's outline on the screen.
+     * @param  shape  the shape object to be erased*/
     public void eraseOutline(Shape shape)
     {
         Color original = graphic.getColor();
