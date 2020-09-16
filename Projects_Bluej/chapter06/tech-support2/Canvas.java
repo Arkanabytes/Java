@@ -120,9 +120,7 @@ public class Canvas
         erase(circle);
     }
 
-    /*Erase the internal dimensions of the given rectangle. This is a 
-     * convenience method. A similar effect can be achieved with
-     * the "erase" method.*/
+    /*Erase the internal dimensions of the given rectangle. This is a convenience method. A similar effect can be achieved with the "erase" method.*/
     public void eraseRectangle(int xPos, int yPos, int width, int height)
     {
         erase(new Rectangle(xPos, yPos, width, height));
