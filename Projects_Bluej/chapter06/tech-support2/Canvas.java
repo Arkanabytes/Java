@@ -170,12 +170,10 @@ public class Canvas
         canvas.repaint();
     }
 
-    /**
-     * Erases a String on the Canvas.
+    /*Erases a String on the Canvas.
      * @param  text     the String to be displayed 
      * @param  x        x co-ordinate for text placement 
-     * @param  y        y co-ordinate for text placement
-     */
+     * @param  y        y co-ordinate for text placement*/
     public void eraseString(String text, int x, int y)
     {
         Color original = graphic.getColor();
@@ -190,8 +188,7 @@ public class Canvas
      * @param  x1   x co-ordinate of start of line 
      * @param  y1   y co-ordinate of start of line 
      * @param  x2   x co-ordinate of end of line 
-     * @param  y2   y co-ordinate of end of line 
-     */
+     * @param  y2   y co-ordinate of end of line*/
     public void drawLine(int x1, int y1, int x2, int y2)
     {
         graphic.drawLine(x1, y1, x2, y2);   
