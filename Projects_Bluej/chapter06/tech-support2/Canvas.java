@@ -153,9 +153,7 @@ public class Canvas
      * @param  image   the Image object to be displayed 
      * @param  x       x co-ordinate for Image placement 
      * @param  y       y co-ordinate for Image placement 
-     * @return  returns boolean value representing whether the image was 
-     *          completely loaded 
-     */
+     * @return  returns boolean value representing whether the image was completely loaded*/
     public boolean drawImage(Image image, int x, int y)
     {
         boolean result = graphic.drawImage(image, x, y, null);
