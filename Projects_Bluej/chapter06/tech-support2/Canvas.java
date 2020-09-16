@@ -115,9 +115,7 @@ public class Canvas
         canvas.repaint();
     }
 
-    /*Erase the internal dimensions of the given circle. This is a 
-     * convenience method. A similar effect can be achieved with
-     * the "erase" method.*/
+    /*Erase the internal dimensions of the given circle. This is a convenience method. A similar effect can be achieved with the "erase" method.*/
     public void eraseCircle(int xPos, int yPos, int diameter)
     {
         Ellipse2D.Double circle = new Ellipse2D.Double(xPos, yPos, diameter, diameter);
