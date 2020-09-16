@@ -96,8 +96,7 @@ public class Canvas
         fill(circle);
     }
 
-    /**
-     * Fill the internal dimensions of the given rectangle with the current 
+    /*Fill the internal dimensions of the given rectangle with the current 
      * foreground color of the canvas. This is a convenience method. A similar 
      * effect can be achieved with the "fill" method.*/
     public void fillRectangle(int xPos, int yPos, int width, int height)
