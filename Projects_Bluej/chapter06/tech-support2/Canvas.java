@@ -258,11 +258,9 @@ public class Canvas
         return graphic.getFont();
     }
 
-    /**
-     * Sets the size of the canvas.
+    /*Sets the size of the canvas.
      * @param  width    new width 
-     * @param  height   new height 
-     */
+     * @param  height   new height*/
     public void setSize(int width, int height)
     {
         canvas.setPreferredSize(new Dimension(width, height));
