@@ -91,8 +91,7 @@ public class Canvas
      * foreground color of the canvas.
      * @param  xPos  The x-coordinate of the circle center point
      * @param  yPos  The y-coordinate of the circle center point
-     * @param  diameter  The diameter of the circle to be drawn
-     */
+     * @param  diameter  The diameter of the circle to be drawn*/
     public void fillCircle(int xPos, int yPos, int diameter)
     {
         Ellipse2D.Double circle = new Ellipse2D.Double(xPos, yPos, diameter, diameter);
