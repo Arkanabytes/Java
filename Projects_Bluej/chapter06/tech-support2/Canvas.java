@@ -86,9 +86,7 @@ public class Canvas
         canvas.repaint();
     }
 
-    /**
-     * Fill the internal dimensions of the given circle with the current 
-     * foreground color of the canvas.
+    /*Fill the internal dimensions of the given circle with the current foreground color of the canvas.
      * @param  xPos  The x-coordinate of the circle center point
      * @param  yPos  The y-coordinate of the circle center point
      * @param  diameter  The diameter of the circle to be drawn*/
