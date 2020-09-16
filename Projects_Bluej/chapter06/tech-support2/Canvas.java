@@ -126,8 +126,7 @@ public class Canvas
         erase(new Rectangle(xPos, yPos, width, height));
     }
 
-    /**
-     * Erase a given shape's interior on the screen.
+    /*Erase a given shape's interior on the screen.
      * @param  shape  the shape object to be erased*/
     public void erase(Shape shape)
     {
