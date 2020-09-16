@@ -148,8 +148,7 @@ public class Canvas
         canvas.repaint();
     }
 
-    /**
-     * Draws an image onto the canvas.
+    /*Draws an image onto the canvas.
      * @param  image   the Image object to be displayed 
      * @param  x       x co-ordinate for Image placement 
      * @param  y       y co-ordinate for Image placement 
@@ -161,8 +160,7 @@ public class Canvas
         return result;
     }
 
-    /**
-     * Draws a String on the Canvas.
+    /*Draws a String on the Canvas.
      * @param  text   the String to be displayed 
      * @param  x      x co-ordinate for text placement 
      * @param  y      y co-ordinate for text placement
@@ -221,8 +219,7 @@ public class Canvas
 
     /**
      * Sets the background color of the Canvas.
-     * @param  newColor   the new color for the background of the Canvas 
-     */
+     * @param  newColor   the new color for the background of the Canvas */
     public void setBackgroundColor(Color newColor)
     {
         backgroundColor = newColor;   
@@ -231,8 +228,7 @@ public class Canvas
 
     /**
      * Returns the current color of the background
-     * @return   the color of the background of the Canvas 
-     */
+     * @return   the color of the background of the Canvas */
     public Color getBackgroundColor()
     {
         return backgroundColor;
@@ -240,8 +236,7 @@ public class Canvas
 
     /**
      * changes the current Font used on the Canvas
-     * @param  newFont   new font to be used for String output
-     */
+     * @param  newFont   new font to be used for String output*/
     public void setFont(Font newFont)
     {
         graphic.setFont(newFont);
@@ -249,8 +244,7 @@ public class Canvas
 
     /**
      * Returns the current font of the canvas.
-     * @return     the font currently in use
-     **/
+     * @return     the font currently in use**/
     public Font getFont()
     {
         return graphic.getFont();
