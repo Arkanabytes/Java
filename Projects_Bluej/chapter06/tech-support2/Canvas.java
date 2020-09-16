@@ -242,8 +242,7 @@ public class Canvas
         graphic.setFont(newFont);
     }
 
-    /**
-     * Returns the current font of the canvas.
+    /*Returns the current font of the canvas.
      * @return     the font currently in use**/
     public Font getFont()
     {
