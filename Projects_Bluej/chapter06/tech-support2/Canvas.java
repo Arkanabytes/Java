@@ -218,8 +218,7 @@ public class Canvas
         graphic.setBackground(newColor);
     }
 
-    /**
-     * Returns the current color of the background
+    /*Returns the current color of the background
      * @return   the color of the background of the Canvas */
     public Color getBackgroundColor()
     {
