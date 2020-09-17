@@ -203,8 +203,7 @@ public class Canvas
 
     /**
      * Returns the current color of the foreground.
-     * @return   the color of the foreground of the Canvas 
-     */
+     * @return   the color of the foreground of the Canvas*/
     public Color getForegroundColor()
     {
         return graphic.getColor();
