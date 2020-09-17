@@ -183,8 +183,7 @@ public class Canvas
         canvas.repaint();
     }
 
-    /**
-     * Draws a line on the Canvas.
+    /*Draws a line on the Canvas.
      * @param  x1   x co-ordinate of start of line 
      * @param  y1   y co-ordinate of start of line 
      * @param  x2   x co-ordinate of end of line 
