@@ -194,10 +194,8 @@ public class Canvas
         canvas.repaint();
     }
 
-    /**
-     * Sets the foreground color of the Canvas.
-     * @param  newColor   the new color for the foreground of the Canvas 
-     */
+    /*Sets the foreground color of the Canvas.
+     * @param  newColor   the new color for the foreground of the Canvas*/
     public void setForegroundColor(Color newColor)
     {
         graphic.setColor(newColor);
