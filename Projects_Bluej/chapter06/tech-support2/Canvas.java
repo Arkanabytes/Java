@@ -227,8 +227,7 @@ public class Canvas
         return backgroundColor;
     }
 
-    /**
-     * changes the current Font used on the Canvas
+    /*changes the current Font used on the Canvas
      * @param  newFont   new font to be used for String output*/
     public void setFont(Font newFont)
     {
