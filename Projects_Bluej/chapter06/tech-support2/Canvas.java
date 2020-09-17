@@ -266,9 +266,7 @@ public class Canvas
         return canvas.getSize();
     }
 
-    /*Waits for a specified number of milliseconds before finishing.
-     * This provides an easy way to specify a small delay which can be
-     * used when producing animations.
+    /*Waits for a specified number of milliseconds before finishing. This provides an easy way to specify a small delay which can be used when producing animations.
      * @param  milliseconds  the number*/
     public void wait(int milliseconds)
     {
@@ -283,9 +281,7 @@ public class Canvas
     }
 
     /************************************************************************
-     * Inner class CanvasPane - the actual canvas component contained in the
-     * Canvas frame. This is essentially a JPanel with added capability to
-     * refresh the image drawn on it.*/
+     * Inner class CanvasPane - the actual canvas component contained in the Canvas frame. This is essentially a JPanel with added capability to refresh the image drawn on it.*/
     private class CanvasPane extends JPanel
     {
         public void paint(Graphics g)
