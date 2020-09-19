@@ -30,8 +30,7 @@ public class AnimalMonitor
     
     /**
      * Print details of all the sightings of the given animal.
-     * @param animal The type of animal.
-     */
+     * @param animal The type of animal.*/
     public void printSightingsOf(String animal)
     {
         sightings.stream()
