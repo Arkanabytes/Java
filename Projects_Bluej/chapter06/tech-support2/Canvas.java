@@ -208,8 +208,7 @@ public class Canvas
         return graphic.getColor();
     }
 
-    /**
-     * Sets the background color of the Canvas.
+    /*Sets the background color of the Canvas.
      * @param  newColor   the new color for the background of the Canvas */
     public void setBackgroundColor(Color newColor)
     {
