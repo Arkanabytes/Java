@@ -39,8 +39,7 @@ public class AnimalMonitor
     
     /**
      * Print all the sightings by the given spotter.
-     * @param spotter The ID of the spotter.
-     */
+     * @param spotter The ID of the spotter.*/
     public void printSightingsBy(int spotter)
     {
         sightings.stream()
