@@ -37,8 +37,7 @@ public class AnimalMonitor
                  .forEach(sighting -> System.out.println(sighting.getDetails()));        
     }
     
-    /**
-     * Print all the sightings by the given spotter.
+    /*Print all the sightings by the given spotter.
      * @param spotter The ID of the spotter.*/
     public void printSightingsBy(int spotter)
     {
