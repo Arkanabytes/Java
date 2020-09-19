@@ -1,3 +1,4 @@
+/*Arkanabytes*/
 import java.awt.Color;
 
 /*Class BallDemo - a short demonstration showing animation with the Canvas class.*/
