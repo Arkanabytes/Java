@@ -53,8 +53,7 @@ public class AnimalMonitor
     /**
      * Return a count of the number of sightings of the given animal.
      * @param animal The type of animal.
-     * @return The count of sightings of the given animal.
-     */
+     * @return The count of sightings of the given animal.*/
     public int getCount(String animal)
     {
         return sightings.stream()
