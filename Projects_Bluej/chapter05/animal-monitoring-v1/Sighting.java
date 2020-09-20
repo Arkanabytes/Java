@@ -1,3 +1,5 @@
+/*Arkanabytes*/
+
 /*Details of a sighting of a type of animal by an individual spotter.*/
 public class Sighting
 {
