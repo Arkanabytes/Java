@@ -3,9 +3,7 @@ public class Club
 {
     // Define any necessary fields here ...
     
-    /**
-     * Constructor for objects of class Club
-     */
+    /*Constructor for objects of class Club*/
     public Club()
     {
         // Initialise any fields here ...
