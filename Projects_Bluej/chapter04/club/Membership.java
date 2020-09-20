@@ -1,3 +1,5 @@
+/*Arkanabytes*/
+
 /*Store details of a club membership.*/
 public class Membership
 {
