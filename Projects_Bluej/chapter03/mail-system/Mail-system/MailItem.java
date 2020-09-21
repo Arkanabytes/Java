@@ -23,8 +23,7 @@ public class MailItem
     }
 
     /**
-     * @return The sender of this message.
-     */
+     * @return The sender of this message.*/
     public String getFrom()
     {
         return from;
