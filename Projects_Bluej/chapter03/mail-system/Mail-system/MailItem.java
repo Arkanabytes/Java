@@ -1,10 +1,6 @@
-/**
- * A class to model a simple mail item. The item has sender and recipient
- * addresses and a message string.
- * 
- * @author Consuelo Pinto
- * @version 2016.01.15
- */
+/*Arkanabytes*/
+
+/*A class to model a simple mail item. The item has sender and recipient addresses and a message string.*/
 public class MailItem
 {
     // The sender of the item.
@@ -14,8 +10,7 @@ public class MailItem
     // The text of the message.
     private String message;
 
-    /**
-     * Create a mail item from sender to the given recipient,
+    /*Create a mail item from sender to the given recipient,
      * containing the given message.
      * @param from The sender of this item.
      * @param to The intended recipient of this item.
