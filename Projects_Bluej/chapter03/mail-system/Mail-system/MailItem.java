@@ -14,8 +14,7 @@ public class MailItem
      * containing the given message.
      * @param from The sender of this item.
      * @param to The intended recipient of this item.
-     * @param message The text of the message to be sent.
-     */
+     * @param message The text of the message to be sent.*/
     public MailItem(String from, String to, String message)
     {
         this.from = from;
