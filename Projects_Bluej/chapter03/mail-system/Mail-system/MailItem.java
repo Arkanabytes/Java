@@ -28,9 +28,7 @@ public class MailItem
         return from;
     }
 
-    /**
-     * @return The intended recipient of this message.
-     */
+    /*@return The intended recipient of this message.*/
     public String getTo()
     {
         return to;
