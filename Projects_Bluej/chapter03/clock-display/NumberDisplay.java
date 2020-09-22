@@ -17,8 +17,7 @@ public class NumberDisplay
 
     /**
      * Constructor for objects of class NumberDisplay.
-     * Set the limit at which the display rolls over.
-     */
+     * Set the limit at which the display rolls over.*/
     public NumberDisplay(int rollOverLimit)
     {
         limit = rollOverLimit;
