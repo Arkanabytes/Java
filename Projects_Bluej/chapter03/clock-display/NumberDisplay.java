@@ -8,8 +8,7 @@
  * automatically rolls over to zero when reaching the limit.
  * 
  * @author Consuelo Pinto
- * @version 2016.02.29
- */
+ * @version 2016.02.29*/
 public class NumberDisplay
 {
     private int limit;
