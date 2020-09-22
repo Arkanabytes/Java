@@ -1,6 +1,5 @@
 
-/**
- * The NumberDisplay class represents a digital number display that can hold
+/*The NumberDisplay class represents a digital number display that can hold
  * values from zero to a given limit. The limit can be specified when creating
  * the display. The values range from zero (inclusive) to limit-1. If used,
  * for example, for the seconds on a digital clock, the limit would be 60, 
