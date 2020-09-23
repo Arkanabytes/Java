@@ -16,8 +16,7 @@ public class NumberDisplay
     }
 
     /**
-     * Return the current value.
-     */
+     * Return the current value.*/
     public int getValue()
     {
         return value;
