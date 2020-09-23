@@ -41,9 +41,7 @@ public class NumberDisplay
         }
     }
 
-    /**
-     * Increment the display value by one, rolling over to zero if the
-     * limit is reached.*/
+    /*Increment the display value by one, rolling over to zero if the limit is reached.*/
     public void increment()
     {
         value = (value + 1) % limit;
