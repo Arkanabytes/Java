@@ -32,8 +32,7 @@ public class NumberDisplay
         }
     }
 
-    /**
-     * Set the value of the display to the new specified value. If the new
+    /*Set the value of the display to the new specified value. If the new
      * value is less than zero or over the limit, do nothing.*/
     public void setValue(int replacementValue)
     {
