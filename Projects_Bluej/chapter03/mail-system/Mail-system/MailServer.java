@@ -5,8 +5,7 @@ import java.util.Iterator;
 /*A simple model of a mail server. The server is able to receive mail items for storage, and deliver them to clients on demand.*/
 public class MailServer
 {
-    // Storage for the arbitrary number of mail items to be stored
-    // on the server.
+    // Storage for the arbitrary number of mail items to be stored on the server.
     private List<MailItem> items;
 
     /*Construct a mail server.*/
