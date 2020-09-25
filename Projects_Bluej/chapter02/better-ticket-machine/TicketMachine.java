@@ -1,4 +1,5 @@
 /*Arkanabytes*/
+
 /*TicketMachine models a ticket machine that issues flat-fare tickets.
  * The price of a ticket is specified via the constructor.
  * Instances will check to ensure that a user only enters sensible amounts of money, and will only print a ticket if enough money has been input.*/
