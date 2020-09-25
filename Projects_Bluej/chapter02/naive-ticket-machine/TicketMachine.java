@@ -1,3 +1,5 @@
+/*Arkanabytes*/
+
 /*TicketMachine models a naive ticket machine that issuesflat-fare tickets.
  * The price of a ticket is specified via the constructor.
  * It is a naive machine in the sense that it trusts its users to insert enough money before trying to print a ticket.
